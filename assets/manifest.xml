@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<assets xmlns="http://schema.slothsoft.net/farah/module">
+    <resource-directory name="css" type="text/css"/>
+    <resource-directory name="js" type="application/javascript"/>
+    <resource-directory name="xsl" type="application/xslt+xml"/>
+    <resource-directory name="dictionary" type="application/xml"/>
+    
+    <directory name="sitemap">
+    	<resource use="template" name="template" type="application/xslt+xml"/>
+    	<use-document ref="//slothsoft@amber/games/index" name="index"/>
+    </directory>
+    
+    <fragment name="pages">
+	    <fragment name="home">
+	    	
+	    </fragment>
+	    <fragment name="ambermoon">
+	    	<fragment name="description">
+		      <import ref="/api/default"/>
+		      <use-document ref="//amber/html/description" name="content"/>
+		      <use-document ref="/shoutboxes/amber" name="chat"/>
+	    	</fragment>
+	    	<fragment name="editor">
+		      <import ref="/api/default"/>
+		      <use-document ref="//amber/html/editor" name="content"/>
+		    </fragment>
+	    	<fragment name="resource">
+		      <import ref="/api/default"/>
+		      <use-document ref="//amber/html/resource" name="content"/>
+		    </fragment>
+		    <fragment name="chat">
+		      <import ref="/api/default"/>
+		      <use-document ref="/shoutboxes/amber" name="content"/>
+		    </fragment>
+	    </fragment>
+    </fragment>
+    
+    
+    
+    <fragment name="api">
+	    <fragment name="default">
+	      <link-stylesheet ref="/css/default"/>
+	      <link-stylesheet ref="/css/fonts"/>
+	      <link-stylesheet ref="/css/colors"/>
+	      <link-stylesheet ref="/css/layout"/>
+	      <use-template ref="/xsl/_default"/>
+	      <use-document ref="//farah/sites" name="sites"/>
+	      <use-document ref="/navi" name="navi"/>
+	      <use-document ref="/validator" name="validator"/>
+	      <use-document ref="/dict.select" name="dict.select"/>
+	      <import ref="//core/api/HTML5"/>
+	    </fragment>
+    </fragment>
+    
+    
+    
+    
+    
+  </assets>
