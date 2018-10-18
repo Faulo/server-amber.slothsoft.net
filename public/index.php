@@ -9,7 +9,7 @@ use Slothsoft\Farah\ResponseStrategy\SendHeaderAndBodyStrategy;
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $request = MessageFactory::createServerRequest($_SERVER, $_REQUEST, $_FILES);
-if (preg_match('~^/[.\w]+@[.\w]+/~', $request->getUri()->getPath())) {
+if (preg_match('~^/[^/]+@[^/]+~', $request->getUri()->getPath())) {
     $requestStrategy = new LookupAssetStrategy();
 } else {
     $requestStrategy = new LookupPageStrategy();
