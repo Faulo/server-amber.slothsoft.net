@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de">
+	<p key="page/amber.slothsoft.net/title">Slothsoft's Amber Webshrine</p>
+	<p key="page/amber.slothsoft.net/about">
+		<article>
+			<h2>Über</h2>
+			<p>
+				Hallo!<br/>
+				Dieser Webshrine ist Spielen gewidmet, die Thalion's <em>Amber</em> Engine benutzen.
+			</p>
+			<ul>
+				<li><a href="./Amberstar/" data-dict="">page/Amberstar/title</a></li>
+				<li><a href="./Ambermoon/" data-dict="">page/Ambermoon/title</a></li>
+			</ul>
+		</article>
+	</p>
+	
+	<p key="page/Amberstar/title">Amberstar</p>
+	<p key="page/Amberstar/about">
+		<article>
+			<h2>Über</h2>
+			<p>Hallo Amberstar.</p>
+		</article>
+	</p>
+	
+	<p key="page/Ambermoon/title">Ambermoon</p>
+	<p key="page/Ambermoon/about">
+		<article>
+			<h2>Über</h2>
+			<p>Hallo Ambermoon.</p>
+		</article>
+	</p>
+	
+	
+	
 
 	<p key="Startseite">Startseite</p>
 	<p key="Minecraft">Minecraft</p>

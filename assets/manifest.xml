@@ -10,26 +10,29 @@
     	<use-document ref="//slothsoft@amber/games/index" name="index"/>
     </directory>
     
+    <directory name="static">
+		<resource-directory type="image/x-icon" name="icons"></resource-directory>
+		<resource-directory type="application/font-sfnt" name="fonts"></resource-directory>
+    </directory>
+    
     <fragment name="pages">
 	    <fragment name="home">
-	    	
+	    	<import ref="/imports/default"/>
 	    </fragment>
 	    <fragment name="ambermoon">
 	    	<fragment name="description">
-		      <import ref="/api/default"/>
-		      <use-document ref="//amber/html/description" name="content"/>
-		      <use-document ref="/shoutboxes/amber" name="chat"/>
+		      <import ref="/imports/default"/>
 	    	</fragment>
 	    	<fragment name="editor">
-		      <import ref="/api/default"/>
+		      <import ref="/imports/default"/>
 		      <use-document ref="//amber/html/editor" name="content"/>
 		    </fragment>
 	    	<fragment name="resource">
-		      <import ref="/api/default"/>
+		      <import ref="/imports/default"/>
 		      <use-document ref="//amber/html/resource" name="content"/>
 		    </fragment>
 		    <fragment name="chat">
-		      <import ref="/api/default"/>
+		      <import ref="/imports/default"/>
 		      <use-document ref="/shoutboxes/amber" name="content"/>
 		    </fragment>
 	    </fragment>
@@ -37,23 +40,20 @@
     
     
     
-    <fragment name="api">
+    <fragment name="imports">
 	    <fragment name="default">
 	      <link-stylesheet ref="/css/default"/>
 	      <link-stylesheet ref="/css/fonts"/>
 	      <link-stylesheet ref="/css/colors"/>
 	      <link-stylesheet ref="/css/layout"/>
-	      <use-template ref="/xsl/_default"/>
-	      <use-document ref="//farah/sites" name="sites"/>
-	      <use-document ref="/navi" name="navi"/>
-	      <use-document ref="/validator" name="validator"/>
-	      <use-document ref="/dict.select" name="dict.select"/>
-	      <import ref="//core/api/HTML5"/>
+	      
+	      <use-template ref="/xsl/pages/default"/>
+	      <use-document ref="//slothsoft@farah/sites" name="sites"/>
 	    </fragment>
     </fragment>
-    
-    
-    
-    
-    
-  </assets>
+    <fragment name="api">
+	    <fragment name="navi">
+	    
+	    </fragment>
+    </fragment>
+</assets>
