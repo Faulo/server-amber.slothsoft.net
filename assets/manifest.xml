@@ -31,10 +31,12 @@
 		      <import ref="/imports/default"/>
 		      <use-document ref="//amber/html/resource" name="content"/>
 		    </fragment>
+		    <!-- 
 		    <fragment name="chat">
 		      <import ref="/imports/default"/>
 		      <use-document ref="/shoutboxes/amber" name="content"/>
 		    </fragment>
+		     -->
 	    </fragment>
     </fragment>
     

@@ -16,6 +16,7 @@
 			
 			<xsl:apply-templates select="*[@name='index']/*"/>
 			
+            <!-- 
 			<page name="src">
 				<segment match="\w" to="game">
 					<segment match="[\w\-\.]+" to="version">
@@ -29,6 +30,7 @@
 					</segment>
 				</segment>
 			</page>
+             -->
 		</domain>
 	</xsl:template>
 	
