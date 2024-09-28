@@ -30,7 +30,7 @@
 			"tests/"
 		],
 		"psr-4" : {
-			"Slothsoft\\Server\\Amber\\" : "tests"
+			"Slothsoft\\Server\\Amber\\Tests\\" : "tests"
 		}
 	},
 	"scripts" : {
