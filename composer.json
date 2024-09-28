@@ -11,7 +11,10 @@
 	"autoload" : {
 		"files" : [
 			"src/bootstrap.php"
-		]
+		],
+		"psr-4" : {
+			"Slothsoft\\Server\\Amber\\" : "src"
+		}
 	},
 	"require" : {
 		"slothsoft/amber" : "*",
@@ -25,7 +28,10 @@
 	"autoload-dev" : {
 		"classmap" : [
 			"tests/"
-		]
+		],
+		"psr-4" : {
+			"Slothsoft\\Server\\Amber\\" : "tests"
+		}
 	},
 	"scripts" : {
 		"farah-asset" : "@php vendor/slothsoft/farah/scripts/farah-asset.php",
