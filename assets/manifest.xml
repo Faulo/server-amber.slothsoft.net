@@ -1,61 +1,56 @@
 <?xml version="1.0"?>
-<assets xmlns="http://schema.slothsoft.net/farah/module">
-    <resource-directory name="css" type="text/css"/>
-    <resource-directory name="js" type="application/javascript"/>
-    <resource-directory name="xsl" type="application/xslt+xml"/>
-    <resource-directory name="dictionary" type="application/xml"/>
-    
-    <directory name="sitemap">
-    	<resource use="template" name="template" type="application/xslt+xml"/>
-    	<use-document ref="//slothsoft@amber/games/index" name="index"/>
-    </directory>
-    
-    <directory name="static">
+<assets xmlns="http://schema.slothsoft.net/farah/module" version="1.1">
+	<resource-directory name="css" type="text/css" />
+	<resource-directory name="js" type="application/javascript" />
+	<resource-directory name="xsl" type="application/xslt+xml" />
+	<resource-directory name="dictionary" type="application/xml" />
+
+	<directory name="sitemap">
+		<resource use="template" name="template" type="application/xslt+xml" />
+		<use-document ref="//slothsoft@amber/games/index" name="index" />
+	</directory>
+
+	<directory name="static">
 		<resource-directory type="image/x-icon" name="icons"></resource-directory>
 		<resource-directory type="application/font-sfnt" name="fonts"></resource-directory>
-    </directory>
-    
-    <fragment name="pages">
-	    <fragment name="home">
-	    	<import ref="/imports/default"/>
-	    </fragment>
-	    <fragment name="ambermoon">
-	    	<fragment name="description">
-		      <import ref="/imports/default"/>
-	    	</fragment>
-	    	<fragment name="editor">
-		      <import ref="/imports/default"/>
-		      <use-document ref="//amber/html/editor" name="content"/>
-		    </fragment>
-	    	<fragment name="resource">
-		      <import ref="/imports/default"/>
-		      <use-document ref="//amber/html/resource" name="content"/>
-		    </fragment>
-		    <!-- 
-		    <fragment name="chat">
-		      <import ref="/imports/default"/>
-		      <use-document ref="/shoutboxes/amber" name="content"/>
-		    </fragment>
-		     -->
-	    </fragment>
-    </fragment>
-    
-    
-    
-    <fragment name="imports">
-	    <fragment name="default">
-	      <link-stylesheet ref="/css/default"/>
-	      <link-stylesheet ref="/css/fonts"/>
-	      <link-stylesheet ref="/css/colors"/>
-	      <link-stylesheet ref="/css/layout"/>
-	      
-	      <use-template ref="/xsl/pages/default"/>
-	      <use-document ref="//slothsoft@farah/sites" name="sites"/>
-	    </fragment>
-    </fragment>
-    <fragment name="api">
-	    <fragment name="navi">
-	    
-	    </fragment>
-    </fragment>
+	</directory>
+
+	<fragment name="pages">
+		<fragment name="home">
+			<import ref="/imports/default" />
+		</fragment>
+		<fragment name="ambermoon">
+			<fragment name="description">
+				<import ref="/imports/default" />
+			</fragment>
+			<fragment name="editor">
+				<import ref="/imports/default" />
+				<use-document ref="//amber/html/editor" name="content" />
+			</fragment>
+			<fragment name="resource">
+				<import ref="/imports/default" />
+				<use-document ref="//amber/html/resource" name="content" />
+			</fragment>
+			<!-- <fragment name="chat"> <import ref="/imports/default"/> <use-document ref="/shoutboxes/amber" name="content"/> </fragment> -->
+		</fragment>
+	</fragment>
+
+
+
+	<fragment name="imports">
+		<fragment name="default">
+			<link-stylesheet ref="/css/default" />
+			<link-stylesheet ref="/css/fonts" />
+			<link-stylesheet ref="/css/colors" />
+			<link-stylesheet ref="/css/layout" />
+
+			<use-template ref="/xsl/pages/default" />
+			<use-document ref="//slothsoft@farah/sites" name="sites" />
+		</fragment>
+	</fragment>
+	<fragment name="api">
+		<fragment name="navi">
+
+		</fragment>
+	</fragment>
 </assets>
