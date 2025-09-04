@@ -5,6 +5,8 @@
 	<resource-directory name="xsl" type="application/xslt+xml" />
 	<resource-directory name="dictionary" type="application/xml" />
 
+	<use-manifest name="monsters" ref="//amber/game-resources/gfx?archiveId=Monster_gfx.amb" />
+
 	<directory name="sitemap">
 		<resource use="template" name="template" type="application/xslt+xml" />
 		<use-document ref="//slothsoft@amber/games/index" name="index" />
