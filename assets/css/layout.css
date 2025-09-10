@@ -3,11 +3,20 @@ header .breadcrumb {
 	font-size: 0.5em;
 }
 
-.resource {
+.resource-image {
 	display: block;
 	background-color: black;
 }
 
-.resource img {
+.resource-image img {
+	display: block;
+}
+
+.game-image {
+	display: inline-block;
+	background-color: black;
+}
+
+.game-image img {
 	display: block;
 }
