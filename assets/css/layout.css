@@ -15,6 +15,7 @@ header .breadcrumb {
 .game-image {
 	display: inline-block;
 	background-color: black;
+	vertical-align: top;
 }
 
 .game-image img {
