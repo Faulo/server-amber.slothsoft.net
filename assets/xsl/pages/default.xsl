@@ -96,9 +96,81 @@
 					</details>
 					<details>
 						<summary>Monsters</summary>
-						<xsl:apply-templates select="." mode="resource-images">
-							<xsl:with-param name="archive" select="'Monster_gfx.amb'" />
-						</xsl:apply-templates>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/1'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/2'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/3'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/4'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/5'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/6'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/7'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/8'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/9'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/10'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/11'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/12'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/13'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/14'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/15'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/16'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/17'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/18'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/19'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/20'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/21'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/22'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/23'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/24'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/25'" />
+						</xsl:call-template>
 					</details>
 				</main>
 			</body>
