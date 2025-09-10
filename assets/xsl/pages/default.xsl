@@ -48,14 +48,14 @@
 					<xsl:copy-of select="*[@name='content']/*" />
 					<details>
 						<summary>Portraits</summary>
-						<xsl:call-template name="resource-image">
-							<xsl:with-param name="archive" select="'Portraits.amb'" />
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/portraits'" />
 						</xsl:call-template>
 					</details>
 					<details>
 						<summary>Items</summary>
-						<xsl:call-template name="resource-image">
-							<xsl:with-param name="archive" select="'Object_icons'" />
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/items'" />
 						</xsl:call-template>
 					</details>
 					<details>
@@ -66,9 +66,33 @@
 					</details>
 					<details>
 						<summary>Events</summary>
-						<xsl:apply-templates select="." mode="resource-images">
-							<xsl:with-param name="archive" select="'Event_pix.amb'" />
-						</xsl:apply-templates>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/1'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/2'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/3'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/4'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/5'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/6'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/7'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/8'" />
+						</xsl:call-template>
+						<xsl:call-template name="game-image">
+							<xsl:with-param name="gfx" select="'/ambermoon/gfx/events/9'" />
+						</xsl:call-template>
 					</details>
 					<details>
 						<summary>Monsters</summary>
@@ -102,6 +126,15 @@
 		<xsl:param name="archive" />
 		<xsl:param name="palette" select="49" />
 		<xsl:variable name="url" select="concat('/slothsoft@amber/game-resources/gfx?archiveId=', $archive, '&amp;paletteId=', $palette)" />
+
+		<a href="{$url}" class="resource">
+			<img src="{$url}" />
+		</a>
+	</xsl:template>
+
+	<xsl:template name="game-image">
+		<xsl:param name="gfx" />
+		<xsl:variable name="url" select="concat('/slothsoft@amber/games', $gfx)" />
 
 		<a href="{$url}" class="resource">
 			<img src="{$url}" />
