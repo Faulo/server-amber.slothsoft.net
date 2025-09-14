@@ -15,7 +15,7 @@ services:
             - 80
         restart: unless-stopped
         tmpfs:
-            - ~/cache
+            - /var/www/cache
 
 networks:
     vhosts:
