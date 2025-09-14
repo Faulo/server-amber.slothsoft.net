@@ -19,7 +19,7 @@ pipeline {
 						}
 						stage ('Run tests') {
 							def args = isUnix()
-									? "--tmpfs {$DOCKER_WORKDIR}/cache"
+									? "--tmpfs $DOCKER_WORKDIR/cache"
 									: ""
 							docker.image("faulo/farah:${PHP_VERSION}").inside(args) {
 								callShell 'composer install --no-interaction'
