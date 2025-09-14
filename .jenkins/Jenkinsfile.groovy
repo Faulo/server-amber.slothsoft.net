@@ -18,7 +18,10 @@ pipeline {
 							env.DOCKER_WORKDIR = callShellStdout "docker image inspect faulo/farah:${PHP_VERSION} --format '{{.Config.WorkingDir}}'"
 						}
 						stage ('Run tests') {
-							docker.image("faulo/farah:${PHP_VERSION}").inside {
+							def args = isUnix()
+									? "--tmpfs {$DOCKER_WORKDIR}/cache"
+									: ""
+							docker.image("faulo/farah:${PHP_VERSION}").inside(args) {
 								callShell 'composer install --no-interaction'
 
 								catchError(buildResult: 'UNSTABLE', catchInterruptions: false) {
