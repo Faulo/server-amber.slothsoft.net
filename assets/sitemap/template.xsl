@@ -14,10 +14,9 @@
 			ref="pages/home" status-active="" status-public=""
 			sfd:languages="de-de en-us">
 			
-			<!-- 
 			<xsl:apply-templates select="*[@name='index']/*"/>
-			
             
+            <!-- 
 			<page name="src">
 				<segment match="\w" to="game">
 					<segment match="[\w\-\.]+" to="version">
