@@ -47,7 +47,7 @@
 			<link-stylesheet ref="/css/layout" />
 
 			<use-template ref="/xsl/pages/default" />
-			<use-document ref="//slothsoft@farah/sites" name="sites" />
+			<use-document ref="//slothsoft@farah/current-sitemap" name="sites" />
 		</fragment>
 	</fragment>
 	<fragment name="api">
