@@ -1151,12 +1151,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-amber.git",
-                "reference": "5176d805f33056bd6a588e09fbda295255831c8d"
+                "reference": "d6f212d19be038c6747e044561067b547ef05ebc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/5176d805f33056bd6a588e09fbda295255831c8d",
-                "reference": "5176d805f33056bd6a588e09fbda295255831c8d",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/d6f212d19be038c6747e044561067b547ef05ebc",
+                "reference": "d6f212d19be038c6747e044561067b547ef05ebc",
                 "shasum": ""
             },
             "require": {
@@ -1164,7 +1164,7 @@
                 "ext-imagick": "*",
                 "php": ">=7.4",
                 "slothsoft/core": "^1.13.3",
-                "slothsoft/farah": "^1.20",
+                "slothsoft/farah": "^1.21.3",
                 "slothsoft/savegame": "^1.0.10"
             },
             "require-dev": {
@@ -1206,7 +1206,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-amber/issues",
                 "source": "https://github.com/Faulo/slothsoft-amber/tree/main"
             },
-            "time": "2025-09-20T18:20:14+00:00"
+            "time": "2025-09-23T02:08:16+00:00"
         },
         {
             "name": "slothsoft/blob",
@@ -1399,16 +1399,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.20.1",
+            "version": "1.21.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "f2a86fb42fbd29010aac93863ed12551673a042a"
+                "reference": "bbebb373379b30c74d389b6a3906bb5e20cbae28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/f2a86fb42fbd29010aac93863ed12551673a042a",
-                "reference": "f2a86fb42fbd29010aac93863ed12551673a042a",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/bbebb373379b30c74d389b6a3906bb5e20cbae28",
+                "reference": "bbebb373379b30c74d389b6a3906bb5e20cbae28",
                 "shasum": ""
             },
             "require": {
@@ -1440,7 +1440,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.20.x-dev"
+                    "dev-main": "1.21.x-dev"
                 }
             },
             "autoload": {
@@ -1471,9 +1471,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.20.1"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.21.3"
             },
-            "time": "2025-09-21T18:10:21+00:00"
+            "time": "2025-09-23T01:38:05+00:00"
         },
         {
             "name": "slothsoft/savegame",
@@ -2971,16 +2971,16 @@
         },
         {
             "name": "sebastian/exporter",
-            "version": "4.0.6",
+            "version": "4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "78c00df8f170e02473b682df15bfcdacc3d32d72"
+                "reference": "eb49b981ef0817890129cb70f774506bebe57740"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/78c00df8f170e02473b682df15bfcdacc3d32d72",
-                "reference": "78c00df8f170e02473b682df15bfcdacc3d32d72",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/eb49b981ef0817890129cb70f774506bebe57740",
+                "reference": "eb49b981ef0817890129cb70f774506bebe57740",
                 "shasum": ""
             },
             "require": {
@@ -3036,15 +3036,27 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
-                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.6"
+                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.7"
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/exporter",
+                    "type": "tidelift"
                 }
             ],
-            "time": "2024-03-02T06:33:00+00:00"
+            "time": "2025-09-22T05:18:21+00:00"
         },
         {
             "name": "sebastian/global-state",
