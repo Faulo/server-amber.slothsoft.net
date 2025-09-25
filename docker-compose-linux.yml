@@ -11,13 +11,13 @@ services:
             LETSENCRYPT_HOST: ${SERVER_NAME}
         volumes:
             - /var/vhosts/${SERVER_NAME}/:/var/www/data/
+        tmpfs:
+            - /var/www/cache/
         networks:
             - vhosts
         expose:
             - 80
         restart: unless-stopped
-        tmpfs:
-            - /var/www/cache/
 
 networks:
     vhosts:
