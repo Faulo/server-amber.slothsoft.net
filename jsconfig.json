@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "/slothsoft@amber/*": [
+        "../slothsoft-amber/assets/*"
+      ],
+      "/slothsoft@chat/*": [
+        "../slothsoft-chat/assets/*"
+      ],
+      "/slothsoft@farah/*": [
+        "../slothsoft-farah/assets/*"
+      ],
+      "/slothsoft@savegame/*": [
+        "../slothsoft-savegame/assets/*"
+      ],
+      "/slothsoft@sse/*": [
+        "../slothsoft-sse/assets/*"
+      ]
+    }
+  }
+}
