@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "paths": {
+      "/slothsoft@amber.slothsoft.net/*": [
+        "./assets/*"
+      ],
       "/slothsoft@amber/*": [
         "../slothsoft-amber/assets/*"
       ],
