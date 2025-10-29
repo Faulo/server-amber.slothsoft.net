@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5f80fe4cd97d480d3fde4b238091844",
+    "content-hash": "b67234068d75a24338cb52ea1f0a1aef",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1151,12 +1151,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-amber.git",
-                "reference": "2bb2972e991655e08604ef93fb2ee931eaf1d3eb"
+                "reference": "639a1cbcfaf88a849ee42f997f6fc7c8c8fcf693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/2bb2972e991655e08604ef93fb2ee931eaf1d3eb",
-                "reference": "2bb2972e991655e08604ef93fb2ee931eaf1d3eb",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/639a1cbcfaf88a849ee42f997f6fc7c8c8fcf693",
+                "reference": "639a1cbcfaf88a849ee42f997f6fc7c8c8fcf693",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1168,8 @@
                 "slothsoft/savegame": "^1.0.11"
             },
             "require-dev": {
-                "phpunit/phpunit": "~9.6.23"
+                "phpunit/phpunit": "~9.6.23",
+                "slothsoft/farah-testing": "^1.1.2"
             },
             "default-branch": true,
             "type": "library",
@@ -1206,7 +1207,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-amber/issues",
                 "source": "https://github.com/Faulo/slothsoft-amber/tree/main"
             },
-            "time": "2025-10-25T18:39:31+00:00"
+            "time": "2025-10-29T14:29:43+00:00"
         },
         {
             "name": "slothsoft/blob",

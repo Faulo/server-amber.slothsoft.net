@@ -15,9 +15,6 @@
       ],
       "/slothsoft@savegame/*": [
         "../slothsoft-savegame/assets/*"
-      ],
-      "/slothsoft@sse/*": [
-        "../slothsoft-sse/assets/*"
       ]
     }
   }
