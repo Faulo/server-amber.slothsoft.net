@@ -31,6 +31,7 @@
   <uri name="farah://slothsoft@amber.slothsoft.net/xsl/kana-translator" uri="assets/xsl/kana-translator.xsl"/>
   <uri name="farah://slothsoft@amber.slothsoft.net/xsl/kana-vocab" uri="assets/xsl/kana-vocab.xsl"/>
   <uri name="farah://slothsoft@amber.slothsoft.net/xsl/navi" uri="assets/xsl/navi.xsl"/>
+  <uri name="farah://slothsoft@amber.slothsoft.net/xsl/pages/default" uri="assets/xsl/pages/default.xsl"/>
   <uri name="farah://slothsoft@amber.slothsoft.net/xsl/unicode-mapper" uri="assets/xsl/unicode-mapper.xsl"/>
   <uri name="farah://slothsoft@amber.slothsoft.net/xsl/vocab-grammar" uri="assets/xsl/vocab-grammar.xsl"/>
   <uri name="farah://slothsoft@amber.slothsoft.net/xsl/vocab-kanji" uri="assets/xsl/vocab-kanji.xsl"/>
