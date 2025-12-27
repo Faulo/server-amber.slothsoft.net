@@ -170,18 +170,4 @@
 			<img src="{$url}" />
 		</a>
 	</xsl:template>
-
-	<xsl:template match="*" mode="page-link">
-		<a href="{@uri}">
-			<xsl:apply-templates select="." mode="page-title" />
-		</a>
-	</xsl:template>
-
-	<xsl:template match="*" mode="page-title">
-		<span data-dict=".">
-			page/
-			<xsl:value-of select="@name" />
-			/title
-		</span>
-	</xsl:template>
 </xsl:stylesheet>

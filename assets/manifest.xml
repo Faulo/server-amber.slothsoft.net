@@ -19,43 +19,41 @@
 
 	<fragment name="pages">
 		<fragment name="home">
-			<import ref="/imports/default" />
+			<import ref="/imports/page-default" />
 		</fragment>
 		<fragment name="ambermoon">
 			<fragment name="description">
-				<import ref="/imports/default" />
-				<fragment name="content" use="document">
-					<use-template ref="/xsl/pages/gfx" />
-				</fragment>
+				<import ref="/imports/page-default" />
 			</fragment>
 			<fragment name="editor">
-				<import ref="/imports/default" />
+				<import ref="/imports/page-default" />
 				<use-document ref="//amber/html/editor" name="content" />
 			</fragment>
 			<fragment name="resource">
-				<import ref="/imports/default" />
+				<import ref="/imports/page-default" />
 				<use-document ref="//amber/html/resource" name="content" />
 			</fragment>
-			<!-- <fragment name="chat"> <import ref="/imports/default"/> <use-document ref="/shoutboxes/amber" name="content"/> </fragment> -->
+			<fragment name="gallery">
+				<import ref="/imports/page-default" />
+				<fragment name="content" use="document">
+					<use-template ref="/xsl/content/gallery" />
+				</fragment>
+			</fragment>
 		</fragment>
 	</fragment>
 
-
-
 	<fragment name="imports">
-		<fragment name="default">
+		<fragment name="page-default">
 			<link-stylesheet ref="/css/default" />
 			<link-stylesheet ref="/css/fonts" />
 			<link-stylesheet ref="/css/colors" />
 			<link-stylesheet ref="/css/layout" />
-
 			<use-template ref="/xsl/pages/default" />
-			<use-document ref="//slothsoft@farah/current-sitemap" name="sites" />
+			<use-document ref="/imports/nav" />
 		</fragment>
-	</fragment>
-	<fragment name="api">
-		<fragment name="navi">
-
+		<fragment name="nav">
+			<use-template ref="/xsl/navigation" />
+			<use-document ref="//slothsoft@farah/current-sitemap" name="sites" />
 		</fragment>
 	</fragment>
 </assets>

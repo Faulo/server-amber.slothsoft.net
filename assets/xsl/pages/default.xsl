@@ -3,59 +3,26 @@
 	xmlns:sfm="http://schema.slothsoft.net/farah/module" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:php="http://php.net/xsl"
 	extension-element-prefixes="php">
 
-	<xsl:import href="farah://slothsoft@farah/xsl/module" />
-
 	<xsl:template match="/*">
-		<xsl:variable name="currentPage" select="*[@name = 'sites']//*[@current]" />
-		<xsl:variable name="pageHierarchy" select="$currentPage/ancestor::sfs:*" />
-
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 
 		<html>
 			<head>
-				<title>
-					<xsl:apply-templates select="$currentPage" mode="page-title" />
-					<xsl:for-each select="$pageHierarchy">
-						<xsl:sort select="position()" order="descending" />
-						<xsl:text> - </xsl:text>
-						<xsl:apply-templates select="." mode="page-title" />
-					</xsl:for-each>
-				</title>
-				<link rel="icon" type="image/png" href="/slothsoft@amber.slothsoft.net/static/icons/Ambermoon" />
+				<xsl:copy-of select="//html:title" />
+
+				<link rel="icon" type="image/png" href="/favion.ico" />
 
 				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 				<meta name="author" content="Daniel Schulz" />
 			</head>
 			<body>
 				<header>
-					<h1>
-						<xsl:if test="$pageHierarchy">
-							<small class="breadcrumb">
-								<xsl:for-each select="$pageHierarchy">
-									<xsl:apply-templates select="." mode="page-link" />
-									<xsl:text> » </xsl:text>
-								</xsl:for-each>
-							</small>
-						</xsl:if>
-						<xsl:apply-templates select="$currentPage" mode="page-link" />
-					</h1>
+					<xsl:copy-of select="//html:nav" />
 				</header>
 				<main>
 					<xsl:copy-of select="*[@name='content']/*" />
 				</main>
 			</body>
 		</html>
-	</xsl:template>
-
-	<xsl:template match="*" mode="page-link">
-		<a href="{@uri}">
-			<xsl:apply-templates select="." mode="page-title" />
-		</a>
-	</xsl:template>
-
-	<xsl:template match="*" mode="page-title">
-		<sfd:lookup key="page-title.{@name}">
-			<xsl:value-of select="@title" />
-		</sfd:lookup>
 	</xsl:template>
 </xsl:stylesheet>
