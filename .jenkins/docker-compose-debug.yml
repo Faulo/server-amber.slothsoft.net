@@ -4,11 +4,22 @@ services:
         image: faulo/farah:${PHP_VERSION}
         volumes:
             - ../assets:${DOCKER_WORKDIR}/assets
-            - ../cache:${DOCKER_WORKDIR}/cache
             - ../data:${DOCKER_WORKDIR}/data
             - ../html:${DOCKER_WORKDIR}/html
             - ../log:${DOCKER_WORKDIR}/log
             - ../src:${DOCKER_WORKDIR}/src
             - ../composer.json:${DOCKER_WORKDIR}/composer.json
+            - cache:${DOCKER_WORKDIR}/cache
+            - vendor:${DOCKER_WORKDIR}/vendor
         ports:
             - 80:80
+
+volumes:
+  cache:
+    driver_opts:
+      type: tmpfs
+      device: tmpfs
+  vendor:
+    driver_opts:
+      type: tmpfs
+      device: tmpfs
