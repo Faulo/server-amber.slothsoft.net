@@ -21,3 +21,21 @@ header .breadcrumb {
 .game-image img {
 	display: block;
 }
+
+.nav__breadcrumb {
+	font-size: 1em;
+}
+
+.nav__current {
+	font-size: 2em;
+}
+
+.nav__options {
+	display: list;
+	padding-left: 2em;
+	font-size: 1em;
+}
+
+.nav__options>* {
+	display: list-item;
+}
