@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/*">
-        <domain name="amber.slothsoft.net" vendor="slothsoft" module="amber.slothsoft.net" ref="pages/home" status-active="" status-public="" sfd:languages="de-de en-us">
+        <domain name="amber.slothsoft.net" vendor="slothsoft" module="amber.slothsoft.net" ref="pages/home" status-active="" status-public="" sfd:languages="de-de en-us" version="1.1">
             <xsl:apply-templates select="*[@name='index']/*" />
         </domain>
     </xsl:template>
