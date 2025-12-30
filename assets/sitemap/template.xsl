@@ -20,14 +20,6 @@
             <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" status-public="" />
 
             <xsl:apply-templates select="mod" />
-
-            <page name="SavegameEditor" title="SavegameEditor" redirect="{$url}SaveEditor/" status-active="" />
-            <page name="GamedataEditor" title="GamedataEditor" redirect="{$url}GameEditor/" status-active="" />
-            <page name="GameEditor" title="GameEditor" redirect="{$url}GameEngine/" status-active="" />
-
-            <page name="ExperienceChart" title="ExperienceChart" redirect="{$url}GameData/ClassList/" status-active="" />
-            <page name="ItemList" title="ItemList" redirect="{$url}GameData/ItemList/" status-active="" />
-            <page name="PortraitList" title="PortraitList" redirect="{$url}GameData/PortraitList/" status-active="" />
         </page>
 
         <file name="favicon.ico" ref="/static/icons/Ambermoon" />
