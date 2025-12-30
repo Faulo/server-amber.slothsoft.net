@@ -30,7 +30,7 @@
             <page name="PortraitList" title="PortraitList" redirect="{$url}GameData/PortraitList/" status-active="" />
         </page>
 
-        <file name="favicon.ico" ref="/slothsoft@amber.slothsoft.net/static/icons/Ambermoon" />
+        <file name="favicon.ico" ref="/static/icons/Ambermoon" />
     </xsl:template>
 
 
