@@ -23,7 +23,7 @@
 
             <page name="SavegameEditor" title="SavegameEditor" redirect="{$url}SaveEditor/" status-active="" />
             <page name="GamedataEditor" title="GamedataEditor" redirect="{$url}GameEditor/" status-active="" />
-            <page name="GameEditor" title="GameEditor" redirect="{$url}GameEditor/" status-active="" />
+            <page name="GameEditor" title="GameEditor" redirect="{$url}GameEngine/" status-active="" />
 
             <page name="ExperienceChart" title="ExperienceChart" redirect="{$url}GameData/ClassList/" status-active="" />
             <page name="ItemList" title="ItemList" redirect="{$url}GameData/ItemList/" status-active="" />
@@ -44,20 +44,20 @@
             <page name="SaveEditor" title="SavegameEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                 <sfm:param name="infosetId" value="lib.save" />
             </page>
-            <page name="GameEditor" title="GameEditor" ref="pages/{$game}/description" status-active="" status-public="">
-                <page name="Dictionaries" title="DictionaryEditor" ref="pages/{$game}/editor" status-active="" status-public="">
+            <page name="GameEngine" title="GameEditor" ref="pages/{$game}/description" status-active="" status-public="">
+                <page name="DictionaryEditor" title="DictionaryEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.dictionaries" />
                 </page>
-                <page name="Items" title="ItemEditor" ref="pages/{$game}/editor" status-active="" status-public="">
+                <page name="ItemEditor" title="ItemEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.items" />
                 </page>
-                <page name="NPCs" title="NPCEditor" ref="pages/{$game}/editor" status-active="" status-public="">
+                <page name="NPCEditor" title="NPCEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.npcs" />
                 </page>
                 <page name="MonsterEditor" title="MonsterEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.monsters" />
                 </page>
-                <page name="Spells" title="SpellEditor" ref="pages/{$game}/editor" status-active="" status-public="">
+                <page name="SpellEditor" title="SpellEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.spells" />
                 </page>
                 <!-- <page name="Places" title="PlaceEditor" ref="pages/{$game}/editor" status-active="" status-public=""> <sfm:param name="infosetId" value="lib.places" /> </page> <page name="Maps" title="MapEditor" ref="pages/{$game}/editor" status-active="" status-public=""> <sfm:param name="infosetId" 

@@ -22,20 +22,30 @@
             </ul>
         </article>
     </sfd:entry>
-    
+
     <sfd:text xml:id="page-title.Ambermoon">Ambermoon</sfd:text>
     <sfd:text xml:id="page-title.Amberstar">Amberstar</sfd:text>
-    <sfd:text xml:id="page-title.Gallery">Bildergalerie</sfd:text>
 
     <sfd:text xml:id="page-title.EditorHelp">Editor FAQs</sfd:text>
+    <sfd:text xml:id="page-title.Downloads">Downloads</sfd:text>
+    <sfd:text xml:id="page-title.Gallery">Bildergalerie</sfd:text>
+
+    <sfd:text xml:id="page-title.SaveEditor">Spielstandseditor</sfd:text>
+
+    <sfd:text xml:id="page-title.GameEngine">Spieldatenbearbeitung</sfd:text>
+    <sfd:text xml:id="page-title.ItemEditor">Gegenstands-Editor</sfd:text>
+    <sfd:text xml:id="page-title.NPCEditor">NPC-Editor</sfd:text>
+    <sfd:text xml:id="page-title.MonsterEditor">Monster-Editor</sfd:text>
+    <sfd:text xml:id="page-title.SpellEditor">Zauberspruch-Editor</sfd:text>
+    <sfd:text xml:id="page-title.DictionaryEditor">Lokalisierungstabellen</sfd:text>
+
+    <sfd:text xml:id="page-title.GameData">Spielinternes</sfd:text>
     <sfd:text xml:id="page-title.ItemList">Gegenstandsliste</sfd:text>
-    <sfd:text xml:id="page-title.SaveEditor">Spielstandsbearbeitung</sfd:text>
-    <sfd:text xml:id="page-title.GameEditor">Spieldatenbearbeitung</sfd:text>
-    <sfd:text xml:id="page-title.PortraitList">Portraitliste</sfd:text>
     <sfd:text xml:id="page-title.PCList">Spielercharaktere</sfd:text>
     <sfd:text xml:id="page-title.NPCList">Nichtspieler­charaktere</sfd:text>
     <sfd:text xml:id="page-title.MonsterList">Monsterliste</sfd:text>
     <sfd:text xml:id="page-title.ClassList">Klassenliste</sfd:text>
+    <sfd:text xml:id="page-title.PortraitList">Portraitliste</sfd:text>
     <sfd:text xml:id="page-title.Maps2D">Gebäude</sfd:text>
     <sfd:text xml:id="page-title.Maps3D">Städte &amp; Dungeons</sfd:text>
     <sfd:text xml:id="page-title.Thalion-v1.05-DE">v1.05 / Deutsch (Originalversion)</sfd:text>
@@ -43,6 +53,4 @@
     <sfd:text xml:id="page-title.WorldmapLyramion">Lyramion</sfd:text>
     <sfd:text xml:id="page-title.WorldKire">Der Waldmond</sfd:text>
     <sfd:text xml:id="page-title.WorldmapMorag">Der Wüstenmond</sfd:text>
-    <sfd:text xml:id="page-title.GameData">Spielinternes</sfd:text>
-    <sfd:text xml:id="page-title.Downloads">Downloads</sfd:text>
 </sfd:dictionary>
