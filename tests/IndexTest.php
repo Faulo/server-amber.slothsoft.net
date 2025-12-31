@@ -2,18 +2,18 @@
 declare(strict_types = 1);
 namespace Slothsoft\Server\Amber\Tests;
 
-use Slothsoft\Farah\Http\MessageFactory;
+use PHPUnit\Framework\Constraint\LogicalNot;
+use PHPUnit\Framework\Constraint\StringContains;
+use Slothsoft\Core\DOMHelper;
 use Slothsoft\FarahTesting\Module\AbstractTestCase;
+use Slothsoft\Farah\Http\MessageFactory;
 use Slothsoft\Farah\RequestStrategy\LookupAssetStrategy;
 use Slothsoft\Farah\RequestStrategy\LookupPageStrategy;
 use DOMDocument;
-use Slothsoft\Core\DOMHelper;
-use PHPUnit\Framework\Constraint\LogicalNot;
-use PHPUnit\Framework\Constraint\StringContains;
 
-class IndexTest extends AbstractTestCase {
+final class IndexTest extends AbstractTestCase {
     
-    public function testIndex() {
+    public function testIndex(): void {
         $_SERVER['REQUEST_URI'] = '/';
         
         $requestStrategy = new LookupPageStrategy();
@@ -28,7 +28,7 @@ class IndexTest extends AbstractTestCase {
         $this->assertTrue($doc->loadXML($data));
     }
     
-    public function testSitemap() {
+    public function testSitemap(): void {
         $_SERVER['REQUEST_URI'] = 'farah://slothsoft@farah/current-sitemap';
         
         $requestStrategy = new LookupAssetStrategy();
