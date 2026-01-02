@@ -49,7 +49,10 @@
     <sfd:text xml:id="page-title.Maps2D">Gebäude</sfd:text>
     <sfd:text xml:id="page-title.Maps3D">Städte &amp; Dungeons</sfd:text>
     <sfd:text xml:id="page-title.Thalion-v1.05-DE">v1.05 / Deutsch (Originalversion)</sfd:text>
-    <sfd:text xml:id="page-title.Thalion-v1.06-DE">v1.06 / Deutsch (Slothsoft Patch)</sfd:text>
+    <sfd:text xml:id="page-title.Slothsoft-v1.06-DE">v1.06 / Deutsch (Slothsoft Patch)</sfd:text>
+    <sfd:text xml:id="page-title.Slothsoft-v1.07-DE">v1.07 / Deutsch (Slothsoft Patch)</sfd:text>
+    <sfd:text xml:id="page-title.Pyrdacor-v1.12-DE">v1.12 / Deutsch (Pyrdacor Patch)</sfd:text>
+    <sfd:text xml:id="page-title.Pyrdacor-v1.20-DE">v1.20 / Deutsch (Pyrdacor Patch)</sfd:text>
     <sfd:text xml:id="page-title.WorldmapLyramion">Lyramion</sfd:text>
     <sfd:text xml:id="page-title.WorldKire">Der Waldmond</sfd:text>
     <sfd:text xml:id="page-title.WorldmapMorag">Der Wüstenmond</sfd:text>
