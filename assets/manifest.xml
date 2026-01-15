@@ -12,6 +12,8 @@
         <use-document ref="//slothsoft@amber/games/index" name="index" />
     </directory>
 
+    <resource-directory name="source" type="*/*" />
+
     <directory name="static">
         <resource-directory type="image/x-icon" name="icons"></resource-directory>
         <resource-directory type="application/font-sfnt" name="fonts"></resource-directory>
