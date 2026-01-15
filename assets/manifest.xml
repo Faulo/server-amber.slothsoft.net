@@ -9,8 +9,10 @@
 
     <directory name="sitemap">
         <resource use="template" name="template" type="application/xslt+xml" />
-        <use-document ref="//slothsoft@amber/games/index" name="index" />
+        <use-document ref="/games-index" name="index" />
     </directory>
+
+    <resource name="games-index" type="application/xml" />
 
     <resource-directory name="source" type="*/*" />
 

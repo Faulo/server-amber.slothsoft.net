@@ -32,6 +32,9 @@
             <xsl:if test="not(@hidden)">
                 <xsl:attribute name="status-public" />
             </xsl:if>
+            <xsl:if test="@repository">
+                <sfm:param name="repository" value="{@repository}" />
+            </xsl:if>
             <sfm:param name="version" value="{@name}" />
             <page name="SaveEditor" title="SavegameEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                 <sfm:param name="infosetId" value="lib.save" />

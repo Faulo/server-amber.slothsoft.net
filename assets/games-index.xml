@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+    <game name="ambermoon" title="Ambermoon">
+        <mod name="Slothsoft-v1.06-DE" repository="farah://slothsoft@amber.slothsoft.net/source" />
+        <mod name="Thalion-v1.05-DE" />
+    </game>
+</index>
