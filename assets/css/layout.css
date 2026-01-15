@@ -23,6 +23,10 @@ header .breadcrumb {
 }
 
 .nav__breadcrumb {
+	height: 1.5em;
+}
+
+.nav__breadcrumb {
 	font-size: 1em;
 }
 

@@ -19,6 +19,9 @@
                     <xsl:copy-of select="//html:nav" />
                 </header>
                 <main>
+                    <xsl:for-each select="sfm:param[@name='page']">
+                        <sfd:lookup key="page-body.{@value}" />
+                    </xsl:for-each>
                     <xsl:copy-of select="*[@name='content']/*" />
                 </main>
             </body>

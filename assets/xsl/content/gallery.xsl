@@ -165,7 +165,7 @@
     <xsl:template name="resource-image">
         <xsl:param name="archive" />
         <xsl:param name="palette" select="49" />
-        <xsl:variable name="url" select="concat('/slothsoft@amber/game-resources/gfx?archiveId=', $archive, '&amp;paletteId=', $palette)" />
+        <xsl:variable name="url" select="concat('/slothsoft@amber/api/gfx?archiveId=', $archive, '&amp;paletteId=', $palette)" />
 
         <a href="{$url}" class="resource-image">
             <img src="{$url}" />
@@ -174,7 +174,7 @@
 
     <xsl:template name="game-image">
         <xsl:param name="gfx" />
-        <xsl:variable name="url" select="concat('/slothsoft@amber/games', $gfx)" />
+        <xsl:variable name="url" select="concat('/slothsoft@amber/static', $gfx)" />
 
         <a href="{$url}" class="game-image">
             <img src="{$url}" />

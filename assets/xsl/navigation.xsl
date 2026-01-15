@@ -20,14 +20,12 @@
             </title>
 
             <nav class="nav">
-                <xsl:if test="$ancestorPages">
-                    <div class="nav__breadcrumb">
-                        <xsl:for-each select="$ancestorPages">
-                            <xsl:apply-templates select="." mode="page-link" />
-                            <xsl:text> » </xsl:text>
-                        </xsl:for-each>
-                    </div>
-                </xsl:if>
+                <div class="nav__breadcrumb">
+                    <xsl:for-each select="$ancestorPages">
+                        <xsl:apply-templates select="." mode="page-link" />
+                        <xsl:text> » </xsl:text>
+                    </xsl:for-each>
+                </div>
 
                 <div class="nav__current">
                     <xsl:apply-templates select="$currentPage" mode="page-title" />

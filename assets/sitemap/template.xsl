@@ -12,11 +12,11 @@
         <xsl:variable name="game" select="@name" />
         <xsl:variable name="url" select="concat('/', @title, '/', mod[not(@hidden)][1]/@name, '/')" />
 
-        <page name="{@title}" ref="pages/{$game}/description" status-active="" status-public="">
+        <page name="{@title}" ref="pages/{$game}/description?page=Ambermoon" status-active="" status-public="">
             <sfm:param name="game" value="{$game}" />
 
-            <page name="EditorHelp" ref="pages/{$game}/description" status-active="" status-public="" />
-            <page name="Downloads" ref="pages/{$game}/description" status-active="" status-public="" />
+            <page name="EditorHelp" ref="pages/{$game}/description?page=EditorHelp" status-active="" status-public="" />
+            <page name="Downloads" ref="pages/{$game}/description?page=Downloads" status-active="" status-public="" />
             <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" status-public="" />
 
             <xsl:apply-templates select="mod" />
