@@ -826,12 +826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-amber.git",
-                "reference": "01112a458e4e5d8f13f9a5089e8c674ca016f569"
+                "reference": "b5daf33821539301e30318b3adc1aba71f0582f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/01112a458e4e5d8f13f9a5089e8c674ca016f569",
-                "reference": "01112a458e4e5d8f13f9a5089e8c674ca016f569",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/b5daf33821539301e30318b3adc1aba71f0582f0",
+                "reference": "b5daf33821539301e30318b3adc1aba71f0582f0",
                 "shasum": ""
             },
             "require": {
@@ -882,7 +882,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-amber/issues",
                 "source": "https://github.com/Faulo/slothsoft-amber/tree/main"
             },
-            "time": "2026-01-18T21:12:39+00:00"
+            "time": "2026-01-18T21:56:26+00:00"
         },
         {
             "name": "slothsoft/blob",
