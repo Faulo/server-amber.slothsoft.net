@@ -3,6 +3,8 @@
     xmlns:sfs="http://schema.slothsoft.net/farah/sitemap" xmlns:php="http://php.net/xsl" extension-element-prefixes="php">
 
     <xsl:template match="/*">
+        <xsl:variable name="page" select="sfm:param[@name='page']/@value" />
+
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 
         <html>
@@ -18,10 +20,8 @@
                 <header>
                     <xsl:copy-of select="//html:nav" />
                 </header>
-                <main>
-                    <xsl:for-each select="sfm:param[@name='page']">
-                        <sfd:lookup key="page-body.{@value}" />
-                    </xsl:for-each>
+                <main class="Amber Amber--{$page}">
+                    <sfd:lookup key="page-body.{$page}" />
                     <xsl:copy-of select="*[@name='content']/*" />
                 </main>
             </body>
