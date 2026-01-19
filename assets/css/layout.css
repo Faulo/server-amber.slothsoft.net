@@ -38,7 +38,8 @@ header .breadcrumb {
 	text-align: center;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	line-height: 1.5em;
+	line-height: 1em;
+	padding: 0.25em;
 }
 
 .nav__options {
