@@ -42,7 +42,7 @@ header .breadcrumb {
 }
 
 .nav__options {
-	display: list;
+	display: block;
 	padding-left: 2em;
 	font-size: 1em;
 	width: fit-content;
