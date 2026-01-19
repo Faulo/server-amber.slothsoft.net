@@ -406,15 +406,32 @@
 	vertical-align: top;
 }
 
-.amber-post > h2 {
+.amber-post>h2 {
 	margin-top: 0;
 	font-size: 1.5rem;
 }
 
-
 .amber-post {
-    background-color: #666655;
+	background-color: #666655;
 	width: 120ch;
-    margin: 1em auto;
-    padding: 0.5em 1em 1em 0.5em;
+	margin: 1em auto;
+	padding: 0.5em 1em 1em 0.5em;
+}
+
+amber-picker[type="monster"] {
+    width: fit-content;
+    height: fit-content;
+}
+
+amber-picker[type="portrait"] {
+	width: fit-content;
+	height: fit-content;
+	margin: auto;
+}
+
+.amber-portrait {
+    text-align: center;
+}
+.amber-portrait amber-portrait-id::after {
+	font-size: 4px !important;
 }
