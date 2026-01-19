@@ -415,6 +415,7 @@
 	background-color: #666655;
 	width: 120ch;
 	max-width: 100%;
+	box-sizing: border-box;
 	margin: 1em auto;
 	padding: 0.5em 1em 1em 0.5em;
 }
