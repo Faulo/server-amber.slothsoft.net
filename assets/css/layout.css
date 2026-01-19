@@ -51,6 +51,4 @@ header .breadcrumb {
 
 .nav__options>* {
 	display: list-item;
-	text-overflow: ellipsis;
-	overflow: hidden;
 }
