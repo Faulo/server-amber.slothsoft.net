@@ -3,7 +3,7 @@
     <sfd:text xml:id="page-title.amber.slothsoft.net">Slothsoft's Amber Webshrine</sfd:text>
 
     <sfd:fragment xml:id="page.amber.slothsoft.net.about">
-        <article>
+        <article class="amber-post">
             <h2>Über</h2>
             <p>
                 Hallo!
@@ -59,7 +59,8 @@
     <sfd:text xml:id="page-title.WorldmapMorag">Der Wüstenmond</sfd:text>
 
     <sfd:fragment xml:id="page-body.EditorHelp">
-        <div class="Amber Instructions">
+        <article class="amber-post">
+            <p>Hier gibt es Infos über dieses Projekt.</p>
             <details>
                 <summary>
                     <h2>Erklärung</h2>
@@ -853,11 +854,11 @@
                     </p>
                 </div>
             </details>
-        </div>
+        </article>
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.Ambermoon">
-        <article>
+        <article class="amber-post">
             <h2>Ambermoon Editor</h2>
             <p>
                 Ambermoon (1993, Thalion Software) ist ein deutsches Rollenspiel für den Amiga.
@@ -880,7 +881,7 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.Thalion-v1.05-DE">
-        <article>
+        <article class="amber-post">
             <h2>Über</h2>
             <p>Ambermoon v1.05, Deutsch, vom 06.12.1993.</p>
             <p>Dieser Branch beinhaltet:</p>
@@ -909,7 +910,7 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.Thalion-v1.06-DE">
-        <article>
+        <article class="amber-post">
             <h2>Über</h2>
             <p>Ambermoon v1.06, Deutsch, vom 08.08.2017.</p>
             <p>Dieser Branch beinhaltet:</p>
@@ -942,7 +943,7 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.Downloads">
-        <article>
+        <article class="amber-post">
             <h2>Patches</h2>
 
             <p>
@@ -999,7 +1000,7 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.GameData">
-        <article>
+        <article class="amber-post">
             <h2>Über</h2>
             <p>Hier stelle ich allerlei Infos über das Spiel bereit, die direkt aus den Quelldateien extrahiert und in
                 menschenlesbare Form gebracht wurden.
@@ -1014,7 +1015,7 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.GameEditor">
-        <article>
+        <article class="amber-post">
             <h2>Über</h2>
             <p>Hier stelle ich zusätzliche Editoren zur Verfügung, die spielinterne Daten verändern können.</p>
             <p>

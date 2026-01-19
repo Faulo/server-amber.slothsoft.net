@@ -28,16 +28,21 @@ header .breadcrumb {
 
 .nav__breadcrumb {
 	font-size: 1em;
+    width: fit-content;
+    margin: auto;
 }
 
 .nav__current {
 	font-size: 2em !important;
+	text-align: center;
 }
 
 .nav__options {
 	display: list;
 	padding-left: 2em;
 	font-size: 1em;
+	width: fit-content;
+	margin: auto;
 }
 
 .nav__options>* {

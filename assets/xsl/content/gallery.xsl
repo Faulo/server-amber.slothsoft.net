@@ -5,9 +5,12 @@
     <xsl:import href="farah://slothsoft@farah/xsl/module" />
 
     <xsl:template match="/*">
-        <div class="Amber Editor">
+        <article class="amber-post">
+            <p>Eine lose Zusammenstellung von Bildern, hauptsächlich für meine eigenen Debug-Zwecke.</p>
             <details>
-                <summary><h2>Alte Editor Screenshots</h2></summary>
+                <summary>
+                    <h2>Alte Editor Screenshots</h2>
+                </summary>
                 <p>
                     <figure>
                         <img src="/slothsoft@amber.slothsoft.net/static/screenshots/character-editor" alt="Screenshot" />
@@ -157,7 +160,7 @@
                     <xsl:with-param name="gfx" select="'/ambermoon/gfx/monsters/25'" />
                 </xsl:call-template>
             </details>
-        </div>
+        </article>
     </xsl:template>
 
     <xsl:template match="*" mode="resource-images">

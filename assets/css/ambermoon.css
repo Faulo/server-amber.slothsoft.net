@@ -11,10 +11,6 @@
 	image-rendering: -moz-crisp-edges;
 }
 
-.Amber, .Amber a:link, .Amber a:visited {
-	text-shadow: black 1px 1px, black 0px 1px, black 1px 0px;
-}
-
 .Amber summary::marker {
 	text-shadow: inherit;
 }
@@ -408,4 +404,17 @@
 *[data-template="columns"]>* {
 	display: table-cell;
 	vertical-align: top;
+}
+
+.amber-post > h2 {
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+
+
+.amber-post {
+    background-color: #666655;
+	width: 120ch;
+    margin: 1em auto;
+    padding: 0.5em 1em 1em 0.5em;
 }
