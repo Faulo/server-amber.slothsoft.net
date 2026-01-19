@@ -415,14 +415,18 @@
 	background-color: #666655;
 	width: 120ch;
 	max-width: 100%;
-	box-sizing: border-box;
-	margin: 1em auto;
+	box-sizing: border-box; margin : 1em auto;
 	padding: 0.5em 1em 1em 0.5em;
+	margin: 1em auto;
+}
+
+.amber-item__textbox {
+	max-width: calc(100vw - 3ch);
 }
 
 amber-picker[type="monster"] {
-    width: fit-content;
-    height: fit-content;
+	width: fit-content;
+	height: fit-content;
 }
 
 amber-picker[type="portrait"] {
@@ -432,8 +436,9 @@ amber-picker[type="portrait"] {
 }
 
 .amber-portrait {
-    text-align: center;
+	text-align: center;
 }
+
 .amber-portrait amber-portrait-id::after {
 	font-size: 4px !important;
 }
