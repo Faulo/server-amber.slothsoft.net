@@ -38,6 +38,7 @@ header .breadcrumb {
 	text-align: center;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	line-height: 1.5em;
 }
 
 .nav__options {
@@ -50,4 +51,6 @@ header .breadcrumb {
 
 .nav__options>* {
 	display: list-item;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
