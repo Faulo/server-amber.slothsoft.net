@@ -50,6 +50,7 @@
 
     <fragment name="imports">
         <fragment name="page-default">
+            <link-stylesheet ref="//slothsoft@amber/css/AmberPicker" />
             <link-stylesheet ref="/css/ambermoon" />
             <link-stylesheet ref="/css/default" />
             <link-stylesheet ref="/css/fonts" />

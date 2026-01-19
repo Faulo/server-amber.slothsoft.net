@@ -3,9 +3,3 @@
 	src: local("Verily Serif Mono"),
 		url("/slothsoft@amber.slothsoft.net/static/fonts/VerilySerifMono");
 }
-
-@font-face {
-	font-family: Amberworld;
-	src: local("Amberworld"),
-		url("/slothsoft@amber.slothsoft.net/static/fonts/Amberworld");
-}

@@ -4,7 +4,7 @@
 	extension-element-prefixes="php">
 
 	<xsl:template match="*" mode="page-link">
-		<a href="{@uri}">
+		<a href="{@uri}" class="amber-text amber-text--green">
 			<xsl:apply-templates select="." mode="page-title" />
 		</a>
 	</xsl:template>

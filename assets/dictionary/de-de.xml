@@ -876,18 +876,6 @@
                 welches Byte wohl welche Funktion haben könnte. Die Verarbeitung erfolgt in PHP über mehrere selbstentwickelte XML-Formate,
                 der Editor basiert auf HTML/JavaScript.
             </p>
-            <p>
-                <figure>
-                    <img src="/slothsoft@amber.slothsoft.net/static/screenshots/character-editor" alt="Screenshot" />
-                    <figcaption>Ein Ausschnitt aus dem Spielstand-Editor, für eines der möglichen Partymitglieder.</figcaption>
-                </figure>
-            </p>
-            <p>
-                <figure>
-                    <img src="/slothsoft@amber.slothsoft.net/static/screenshots/map-editor" alt="Screenshot" />
-                    <figcaption>Ein Ausschnitt aus dem Level-Editor, für eine der 2D-Karten.</figcaption>
-                </figure>
-            </p>
         </article>
     </sfd:fragment>
 

@@ -7,6 +7,21 @@
     <xsl:template match="/*">
         <div class="Amber Editor">
             <details>
+                <summary><h2>Alte Editor Screenshots</h2></summary>
+                <p>
+                    <figure>
+                        <img src="/slothsoft@amber.slothsoft.net/static/screenshots/character-editor" alt="Screenshot" />
+                        <figcaption>Ein Ausschnitt aus dem Spielstand-Editor, für eines der möglichen Partymitglieder.</figcaption>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <img src="/slothsoft@amber.slothsoft.net/static/screenshots/map-editor" alt="Screenshot" />
+                        <figcaption>Ein Ausschnitt aus dem Level-Editor, für eine der 2D-Karten.</figcaption>
+                    </figure>
+                </p>
+            </details>
+            <details>
                 <summary>
                     <h2>Portraits</h2>
                 </summary>

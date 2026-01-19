@@ -27,7 +27,7 @@
                     </xsl:for-each>
                 </div>
 
-                <div class="nav__current">
+                <div class="nav__current amber-text">
                     <xsl:apply-templates select="$currentPage" mode="page-title" />
                 </div>
 
