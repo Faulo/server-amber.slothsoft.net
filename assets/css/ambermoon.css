@@ -416,8 +416,14 @@
 .amber-post {
 	background-color: #666655;
 	width: 120ch;
-	margin: 1em auto;
+	max-width: 100%;
+	box-sizing: border-box; margin : 1em auto;
 	padding: 0.5em 1em 1em 0.5em;
+	margin: 1em auto;
+}
+
+.amber-item__textbox {
+	max-width: calc(100vw - 3ch);
 }
 
 amber-picker[type="monster"] {
