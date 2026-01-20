@@ -17,7 +17,7 @@
 
             <page name="EditorHelp" ref="pages/{$game}/description?page=EditorHelp" status-active="" status-public="" />
             <page name="Downloads" ref="pages/{$game}/description?page=Downloads" status-active="" status-public="" />
-            <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" status-public="" />
+            <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" />
 
             <xsl:apply-templates select="mod" />
         </page>
@@ -28,7 +28,7 @@
 
     <xsl:template match="mod">
         <xsl:variable name="game" select="../@name" />
-        <page name="{@name}" ref="pages/{$game}/description" status-active="">
+        <page name="{@name}" redirect="GameData" status-active="">
             <xsl:if test="not(@hidden)">
                 <xsl:attribute name="status-public" />
             </xsl:if>
