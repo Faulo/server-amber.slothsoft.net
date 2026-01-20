@@ -17,7 +17,7 @@
 
             <page name="EditorHelp" ref="pages/{$game}/description?page=EditorHelp" status-active="" status-public="" />
             <page name="Downloads" ref="pages/{$game}/description?page=Downloads" status-active="" status-public="" />
-            <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" status-public="" />
+            <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" />
 
             <xsl:apply-templates select="mod" />
         </page>
