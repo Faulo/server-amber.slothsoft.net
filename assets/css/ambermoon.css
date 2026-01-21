@@ -23,7 +23,7 @@
 	text-shadow: inherit;
 }
 
-.Amber, .Amber summary, .Amber code {
+.Amber, .Amber code {
 	font-family: myOldschool, monospace;
 }
 
@@ -174,13 +174,18 @@
 .amber-list__item {
 	border: 2px ridge #ccccbb;
 	border-radius: 2px;
+	display: flex;
 }
 
-.amber-list--item-list .amber-list__items {
+.amber-list--item-list .amber-list__items, .amber-list--pc-list .amber-list__items,
+	.amber-list--npc-list .amber-list__items, .amber-list--monster-list .amber-list__items
+	{
 	justify-content: space-evenly;
 }
 
-.amber-list--item-list .amber-list__item {
+.amber-list--item-list .amber-list__item, .amber-list--pc-list .amber-list__item,
+	.amber-list--npc-list .amber-list__item, .amber-list--monster-list .amber-list__item
+	{
 	margin: 0.5em 0;
 }
 
@@ -429,7 +434,7 @@
 	margin: 1em auto;
 }
 
-.amber-item__textbox {
+.amber-item .amber-textbox {
 	max-width: calc(100vw - 3ch);
 }
 
