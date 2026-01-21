@@ -174,7 +174,6 @@
 .amber-list__item {
 	border: 2px ridge #ccccbb;
 	border-radius: 2px;
-	overflow: hidden;
 }
 
 .amber-list--item-list .amber-list__items {
