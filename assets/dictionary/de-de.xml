@@ -1002,6 +1002,42 @@
         </article>
     </sfd:fragment>
 
+    <sfd:fragment xml:id="page-body.ItemList">
+        <article class="post">
+            <p>Dies ist eine Liste aller Gegenstände im Spiel, mit allen ihren spielrelevanten Informationen. Für Textrollen steht außerdem dabei, welchen Text sie beinhalten.</p>
+        </article>
+    </sfd:fragment>
+
+    <sfd:fragment xml:id="page-body.PCList">
+        <article class="post">
+            <p>Dies ist eine Liste aller Charaktere, die im Verlauf des Spiels in die Gruppe aufgenommen werden können, mit allen ihren spielrelevanten Informationen.</p>
+            <p>
+                Die Charektere Erik, Mando, Monika, Chris und Netsrak sind
+                <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CreatorCameo" rel="external" target="_blank">Creator Cameos</a>
+                und nur im geheimen Thalion Büro anzutreffen.
+            </p>
+        </article>
+    </sfd:fragment>
+
+    <sfd:fragment xml:id="page-body.NPCList">
+        <article class="post">
+            <p>Dies ist eine Liste aller Charaktere, mit denen im Verlauf des Spiels gesprochen werden kann, mit allen ihren Dialogoptionen.</p>
+        </article>
+    </sfd:fragment>
+
+    <sfd:fragment xml:id="page-body.MonsterList">
+        <article class="post">
+            <p>Dies ist eine Liste aller Monster, die im Verlauf des Spiels bekämpft werden können, mit allen ihren kampfrelevanten informationen.</p>
+        </article>
+    </sfd:fragment>
+
+    <sfd:fragment xml:id="page-body.PortraitList">
+        <article class="post">
+            <p>Dies ist eine Liste aller Spielgrafiken, die als Charakter-Portrait benutzt werden können.</p>
+            <p>Zu jedem Portrait steht außerdem dabei, welche Spieler- oder Nichtspielercharaktere es verwenden. Nur etwa die Hälfte von Monika Krawinkel's Grafiken haben Anwendung gefunden. :(</p>
+        </article>
+    </sfd:fragment>
+
     <sfd:fragment xml:id="page-body.GameEditor">
         <article class="post">
             <p>Hier stelle ich zusätzliche Editoren zur Verfügung, die spielinterne Daten verändern können.</p>
