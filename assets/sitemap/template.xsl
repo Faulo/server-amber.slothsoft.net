@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/*">
-        <domain name="amber.slothsoft.net" vendor="slothsoft" module="amber.slothsoft.net" ref="pages/home" status-active="" status-public="" sfd:languages="de-de en-us" version="1.1">
+        <domain name="amber.slothsoft.net" vendor="slothsoft" module="amber.slothsoft.net" ref="pages/default" status-active="" status-public="" sfd:languages="de-de en-us" version="1.1">
             <xsl:apply-templates select="*[@name='index']/*" />
         </domain>
     </xsl:template>
@@ -12,11 +12,11 @@
         <xsl:variable name="game" select="@name" />
         <xsl:variable name="url" select="concat('/', @title, '/', mod[not(@hidden)][1]/@name, '/')" />
 
-        <page name="{@title}" ref="pages/{$game}/description?page=Ambermoon" status-active="" status-public="">
+        <page name="{@title}" ref="pages/{$game}/default" status-active="" status-public="">
             <sfm:param name="game" value="{$game}" />
 
-            <page name="EditorHelp" ref="pages/{$game}/description?page=EditorHelp" status-active="" status-public="" />
-            <page name="Downloads" ref="pages/{$game}/description?page=Downloads" status-active="" status-public="" />
+            <page name="EditorHelp" ref="pages/{$game}/default" status-active="" status-public="" />
+            <page name="Downloads" ref="pages/{$game}/default" status-active="" status-public="" />
             <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" />
             <page name="Runenalphabet" ref="/pages/{$game}/runes" status-active="" status-public="" />
 
@@ -41,7 +41,7 @@
             <page name="SaveEditor" title="SavegameEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                 <sfm:param name="infosetId" value="lib.save" />
             </page>
-            <page name="GameEngine" title="GameEditor" ref="pages/{$game}/description" status-active="" status-public="">
+            <page name="GameEngine" title="GameEditor" ref="pages/{$game}/default" status-active="" status-public="">
                 <page name="DictionaryEditor" title="DictionaryEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.dictionaries" />
                 </page>
@@ -60,7 +60,7 @@
                 <!-- <page name="Places" title="PlaceEditor" ref="pages/{$game}/editor" status-active="" status-public=""> <sfm:param name="infosetId" value="lib.places" /> </page> <page name="Maps" title="MapEditor" ref="pages/{$game}/editor" status-active="" status-public=""> <sfm:param name="infosetId" 
                     value="lib.maps" /> </page> <page name="Extra" title="ExtraEditor" ref="pages/{$game}/editor" status-active="" status-public=""> <sfm:param name="infosetId" value="lib.extra" /> </page> -->
             </page>
-            <page name="GameData" title="GameData" ref="pages/{$game}/description" status-active="" status-public="">
+            <page name="GameData" title="GameData" ref="pages/{$game}/default" status-active="" status-public="">
                 <page name="ItemList" title="ItemList" ref="pages/{$game}/resource" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.items" />
                 </page>

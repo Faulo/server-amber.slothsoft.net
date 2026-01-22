@@ -2,9 +2,8 @@
 <sfd:dictionary xmlns="http://www.w3.org/1999/xhtml" xmlns:sfd="http://schema.slothsoft.net/farah/dictionary" version="1.0">
     <sfd:text xml:id="page-title.amber.slothsoft.net">Slothsoft's Amber Webshrine</sfd:text>
 
-    <sfd:fragment xml:id="page.amber.slothsoft.net.about">
+    <sfd:fragment xml:id="page-body.amber.slothsoft.net">
         <article class="post">
-            <h2>Über</h2>
             <p>
                 Hallo!
                 <br />
@@ -12,14 +11,7 @@
                 <em>Amber</em>
                 Engine benutzen.
             </p>
-            <ul>
-                <li>
-                    <a href="./Amberstar/" data-dict="">page/Amberstar/title</a>
-                </li>
-                <li>
-                    <a href="./Ambermoon/" data-dict="">page/Ambermoon/title</a>
-                </li>
-            </ul>
+            <p>Allerging gibt es bislang nur Support für Ambermoon. :)</p>
         </article>
     </sfd:fragment>
 
@@ -860,9 +852,9 @@
 
     <sfd:fragment xml:id="page-body.Ambermoon">
         <article class="post">
-            <h2>Ambermoon Editor</h2>
             <p>
-                Ambermoon (1993, Thalion Software) ist ein deutsches Rollenspiel für den Amiga.
+                <a href="https://www.mobygames.com/game/10789/ambermoon/" rel="external" target="_blank">Ambermoon (Thalion Software 1993)</a>
+                ist ein deutsches Rollenspiel für den Amiga.
                 Es war eines der ersten Spiele die ich in meinem Leben gespielt habe, und es hat seitdem einen Platz in meinem Herzen.
             </p>
             <p>
@@ -883,7 +875,6 @@
 
     <sfd:fragment xml:id="page-body.Thalion-v1.05-DE">
         <article class="post">
-            <h2>Über</h2>
             <p>Ambermoon v1.05, Deutsch, vom 06.12.1993.</p>
             <p>Dieser Branch beinhaltet:</p>
             <ul>
@@ -912,7 +903,6 @@
 
     <sfd:fragment xml:id="page-body.Thalion-v1.06-DE">
         <article class="post">
-            <h2>Über</h2>
             <p>Ambermoon v1.06, Deutsch, vom 08.08.2017.</p>
             <p>Dieser Branch beinhaltet:</p>
             <ul>
@@ -945,8 +935,6 @@
 
     <sfd:fragment xml:id="page-body.Downloads">
         <article class="post">
-            <h2>Patches</h2>
-
             <p>
                 Hier biete ich Patches für die
                 <a href="../EditorHelp/">mir bekannten Bugs</a>
@@ -1002,7 +990,6 @@
 
     <sfd:fragment xml:id="page-body.GameData">
         <article class="post">
-            <h2>Über</h2>
             <p>Hier stelle ich allerlei Infos über das Spiel bereit, die direkt aus den Quelldateien extrahiert und in
                 menschenlesbare Form gebracht wurden.
             </p>
@@ -1017,7 +1004,6 @@
 
     <sfd:fragment xml:id="page-body.GameEditor">
         <article class="post">
-            <h2>Über</h2>
             <p>Hier stelle ich zusätzliche Editoren zur Verfügung, die spielinterne Daten verändern können.</p>
             <p>
                 <strong>ACHTUNG!</strong>
