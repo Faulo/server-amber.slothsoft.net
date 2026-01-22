@@ -1012,7 +1012,17 @@
         <article class="post">
             <p>Dies ist eine Liste aller Charaktere, die im Verlauf des Spiels in die Gruppe aufgenommen werden können, mit allen ihren spielrelevanten Informationen.</p>
             <p>
-                Die Charektere Erik, Mando, Monika, Chris und Netsrak sind
+                Die Charektere
+                <span class="amber-text amber-text--yellow">Erik</span>
+                ,
+                <span class="amber-text amber-text--yellow">Mando</span>
+                ,
+                <span class="amber-text amber-text--yellow">Monika</span>
+                ,
+                <span class="amber-text amber-text--yellow">Chris</span>
+                und
+                <span class="amber-text amber-text--yellow">Netsrak</span>
+                sind
                 <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CreatorCameo" rel="external" target="_blank">Creator Cameos</a>
                 und nur im geheimen Thalion Büro anzutreffen.
             </p>
@@ -1020,8 +1030,15 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.NPCList">
-        <article class="post">
+        <article class="post" xml:space="preserve">
             <p>Dies ist eine Liste aller Charaktere, mit denen im Verlauf des Spiels gesprochen werden kann, mit allen ihren Dialogoptionen.</p>
+            <p>Wie unter den Spielercharakteren gibt es auch hier eine Reihe an <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CreatorCameo" rel="external" target="_blank">Creator Cameos</a>:</p>
+            <ul>
+                <li><span class="amber-text amber-text--yellow">Baron Karsten</span> repräsentiert den Designer von Ambermoon, <a href="https://www.mobygames.com/person/37685/karsten-koper/" rel="external" target="_blank">Karsten Köper</a></li>
+                <li><span class="amber-text amber-text--yellow">Matthias</span>, der Meister der Musik, repräsentiert <a href="https://www.mobygames.com/person/26632/matthias-steinwachs/" rel="external" target="_blank">Matthias Steinwachs</a></li>
+                <li><span class="amber-text amber-text--yellow">Michael</span>, der Kartograph, repräsentiert <a href="https://www.mobygames.com/person/37691/michael-hellmich/" rel="external" target="_blank">Michael Hellmich</a></li>
+                <li><span class="amber-text amber-text--yellow">Dieter</span>, der Kunstmaler, repräsentiert <a href="https://www.mobygames.com/person/26635/dieter-rottermund/" rel="external" target="_blank">Dieter Rottermund</a></li>
+            </ul>
         </article>
     </sfd:fragment>
 
@@ -1032,9 +1049,9 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.PortraitList">
-        <article class="post">
+        <article class="post" xml:space="preserve">
             <p>Dies ist eine Liste aller Spielgrafiken, die als Charakter-Portrait benutzt werden können.</p>
-            <p>Zu jedem Portrait steht außerdem dabei, welche Spieler- oder Nichtspielercharaktere es verwenden. Nur etwa die Hälfte von Monika Krawinkel's Grafiken haben Anwendung gefunden. :(</p>
+            <p>Zu jedem Portrait steht außerdem dabei, welche Spieler- oder Nichtspielercharaktere es verwenden. Nur etwa die Hälfte von <a href="https://www.mobygames.com/person/26631/thorsten-mutschall/" rel="external" target="_blank">Thorsten Mutschall</a>'s Portraits haben im Spiel Anwendung gefunden. :(</p>
         </article>
     </sfd:fragment>
 
