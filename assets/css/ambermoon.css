@@ -38,12 +38,11 @@ code {
 	grid-auto-flow: column;
 	grid-template-rows: repeat(15, auto);
 	gap: 0 6ch;
-	
 	list-style: none;
-    border-color: #aaaa99 #222222 #222222 #aaaa99;
-    border-width: 2px;
-    padding: 2ch;
-    border-style: solid;
+	border-color: #aaaa99 #222222 #222222 #aaaa99;
+	border-width: 2px;
+	padding: 2ch;
+	border-style: solid;
 }
 
 .rune-table .amber-text {
