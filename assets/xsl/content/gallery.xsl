@@ -5,7 +5,7 @@
     <xsl:import href="farah://slothsoft@farah/xsl/module" />
 
     <xsl:template match="/*">
-        <article class="amber-post">
+        <article class="post">
             <p>Eine lose Zusammenstellung von Bildern, hauptsächlich für meine eigenen Debug-Zwecke.</p>
             <details>
                 <summary>

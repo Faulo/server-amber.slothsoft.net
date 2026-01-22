@@ -39,12 +39,18 @@
 				<import ref="/includes/page-default" />
 				<use-document ref="//slothsoft@amber/api/viewer" name="content" />
 			</fragment>
-			<fragment name="gallery">
-				<import ref="/includes/page-default" />
-				<fragment name="content" use="document">
-					<use-template ref="/xsl/content/gallery" />
-				</fragment>
-			</fragment>
+            <fragment name="gallery">
+                <import ref="/includes/page-default" />
+                <fragment name="content" use="document">
+                    <use-template ref="/xsl/content/gallery" />
+                </fragment>
+            </fragment>
+            <fragment name="runes">
+                <import ref="/includes/page-default" />
+                <fragment name="content" use="document">
+                    <use-template ref="/xsl/content/runes" />
+                </fragment>
+            </fragment>
 		</fragment>
 	</fragment>
 

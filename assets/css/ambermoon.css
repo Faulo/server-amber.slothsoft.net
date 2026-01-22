@@ -1,60 +1,56 @@
-.Amber {
-	font-size: 1em;
+html {
 	font-weight: bold;
 	color: #FFFFEE;
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
+	font-family: myParagraph, serif;
 }
 
-.Amber canvas {
+canvas {
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
 }
 
-.Amber summary::marker {
+summary::marker {
 	text-shadow: inherit;
 }
 
-.Amber summary::-moz-list-bullet {
+summary::-moz-list-bullet {
 	text-shadow: inherit;
 }
 
-.Amber summary::-webkit-details-marker {
+summary::-webkit-details-marker {
 	text-shadow: inherit;
 }
 
-.Amber, .Amber code {
-	font-family: myOldschool, monospace;
-}
-
-.Amber summary:hover {
+summary:hover {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
-.Amber.Instructions, .Amber .errorMessage * {
-	font-family: myParagraph, serif;
-	text-transform: none;
+code {
+	font-family: myOldschool, monospace;
 }
 
-.Amber .settings td {
-	padding: 0 0.75em;
+.rune-table {
+	margin: 2ch auto;
+	width: fit-content;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: repeat(15, auto);
+	gap: 0 6ch;
+	
+	list-style: none;
+    border-color: #aaaa99 #222222 #222222 #aaaa99;
+    border-width: 2px;
+    padding: 2ch;
+    border-style: solid;
 }
 
-.Amber * {
-	font-weight: inherit;
-	font-family: inherit;
-	text-transform: inherit;
-	font-size: inherit;
-	text-shadow: inherit;
-	color: inherit;
-}
-
-.Amber h2 {
-	margin: 0.25em 0;
-}
-
-.Amber h3 {
-	margin: 0;
+.rune-table .amber-text {
+	font-size: 3em;
+	width: 2ch;
+	text-align: center;
+	display: inline-block;
 }
 
 .Amber input[type="submit"], .Amber button {
@@ -152,11 +148,6 @@
 
 .Amber button {
 	margin-left: 0.5em;
-}
-
-.Amber ul {
-	padding: 0;
-	list-style-type: none;
 }
 
 .Amber caption {
@@ -419,12 +410,12 @@
 	vertical-align: top;
 }
 
-.amber-post>h2 {
+.post>h2 {
 	margin-top: 0;
 	font-size: 1.5rem;
 }
 
-.amber-post {
+.post {
 	background-color: #666655;
 	width: 120ch;
 	max-width: 100%;

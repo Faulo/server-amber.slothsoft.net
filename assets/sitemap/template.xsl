@@ -18,6 +18,7 @@
             <page name="EditorHelp" ref="pages/{$game}/description?page=EditorHelp" status-active="" status-public="" />
             <page name="Downloads" ref="pages/{$game}/description?page=Downloads" status-active="" status-public="" />
             <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" />
+            <page name="Runenalphabet" ref="/pages/{$game}/runes" status-active="" status-public="" />
 
             <xsl:apply-templates select="mod" />
         </page>
