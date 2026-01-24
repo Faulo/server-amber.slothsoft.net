@@ -506,6 +506,7 @@
                     <p>Farblegende:</p>
                     <ul>
                         <li class="gray">gefixt in der aktuellen Version</li>
+                        <li class="red">irrtürmlich gefixt</li>
                         <li class="yellow">noch nicht gefixt, aber denkbar</li>
                         <li class="orange">wahrscheinlich unmöglich zu fixen</li>
                     </ul>
@@ -603,6 +604,42 @@
                             <dd>Das Item "Krypta Schlüssel" ist in der Kategorie "Amulett".
                                 Es verhält sich aber wie ein Schlüssel.
                             </dd>
+
+                            <dt class="yellow">Gala's Stab ist ein magischer Gegenstand</dt>
+                            <dd>Das Item "Gala's Stab" ist in der Kategorie "Mag. Gegenstand".
+                                Es verhält sich aber wie eine Nahkampfwaffe (fast genau so wie die Nahkampfwaffe "Keule der Gala", um genau zu sein).
+                            </dd>
+
+                            <dt class="yellow">Die Mörderklinge benötigt 0 Hände</dt>
+                            <dd>
+                                Das Item "Mörderklinge" benötigt keine Hände.
+                                Das erlaubt keine nennenswerten Bugs, ist aber trotzdem falsch.
+                            </dd>
+
+                            <dt class="red">Einige Waffen sind zu schwach</dt>
+                            <dd>
+                                Einige Nahkampfwaffen zu Beginn des Spiels sind bereits obsolet, wenn man sie das erste mal findet.
+                                Sie sollten ein kleines bisschen mehr Schaden anrichten, um bessere Beute abzugeben.
+                                Das betrifft die Items "Dreschflegel" (6->7 Schaden), "Streitkolben" (8->9 Schaden),
+                                "Morgenstern" (7->10 Schaden), "Kampfaxt" (10->11 Schaden), und "Peitsche" (7->9 Schaden).
+                                <br />
+                                Anmerkung:
+                                <br />
+                                Die Patches hier sollten nicht das Game Design verändern, sondern exakt so unbalanciert wiedergeben, wie es ursprünglich konzipiert wurde.
+                            </dd>
+
+                            <dt class="red">"Scimitar" ist kein deutsches Wort</dt>
+                            <dd>
+                                Das Item "Scimitar" ist augenscheinlich eine Art Krummsäbel, trägt aber den Namen eines englischen Wortes für Krummsäbel.
+                                <br />
+                                Anmerkung:
+                                <br />
+                                Viele Waffen orientieren sich schadensmäßig an namensgleiche Waffen im Dungeons &amp; Dragons Regelwerk (z.B. Dolch: 1d4, Kurzschwert: 1d6, Langschwert: 1d8, Zweihänder: 1d12).
+                                Ein klassischer D&amp;D Krummsäbel würde wie das Kurzschwert 1d6 Schaden anrichten, und
+                                hätte ähnliche Klassenrestriktionen wie dieses. Das Ambermoon Scimitar jedoch richtet gigantische 1d25 Schaden an, und kann von jeder Klasse verwendet werden.
+                                Offensichtlich handelt es sich hier um ein in irgendeiner Art und Weise magisch verstärkte Waffe, die nur
+                                zufällig so aussieht wie ein Krummsäbel. Vielleicht ist "Scimitar" ein Markenname?
+                            </dd>
                         </dl>
                     </details>
 
@@ -677,11 +714,17 @@
                                     geschafft hat, aber meinem Gefühl nach ist 5% richtiger.)</small>
                             </dd>
 
-                            <dt class="gray">Niemand kann perfekt schwimmen</dt>
-                            <dd>Alle Charaktere haben ein Schwimmen-Maximum von 95. Um aber
+                            <dt class="red">Niemand kann perfekt schwimmen</dt>
+                            <dd>
+                                Alle Charaktere haben ein Schwimmen-Maximum von 95. Um aber
                                 schwimmen zu können, ohne Schaden zu nehmen,
                                 braucht man 99
                                 Schwimmen (wie der Ring des Sobek es auch gibt).
+                                <br />
+                                Anmerkung:
+                                <br />
+                                <a href="https://www.pyrdacor.net/of-savegames-redundant-data-and-baywatch" rel="external" target="_blank">Pyrdacor</a>
+                                hat überzeugend argumentiert, dass das Maximum von 95% durchaus plausibel ist. Deshalb wurde diese Änderung für die Version v1.07 wieder zurückgesetzt.
                             </dd>
                         </dl>
                     </details>
