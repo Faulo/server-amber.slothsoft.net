@@ -30,7 +30,7 @@
 
     <xsl:template match="mod">
         <xsl:variable name="game" select="../@name" />
-        <page name="{@name}" redirect="GameData/" status-active="">
+        <page name="{@name}" ref="pages/{$game}/default" status-active="">
             <xsl:if test="not(@hidden)">
                 <xsl:attribute name="status-public" />
             </xsl:if>

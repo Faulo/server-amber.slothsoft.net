@@ -329,13 +329,13 @@ code {
 	column-count: 2;
 }
 
-*[data-template="tabs"]>label {
+*[data-tabs]>label {
 	display: block;
 	text-align: center;
 	margin-bottom: 16px;
 }
 
-*[data-template="tabs"]>label>* {
+*[data-tabs]>label>* {
 	display: block;
 	width: auto;
 	margin: auto;

@@ -42,6 +42,10 @@
                 <import ref="/pages/default" />
                 <use-document ref="//slothsoft@amber/api/viewer" name="content" />
             </fragment>
+            <fragment name="editor">
+                <import ref="/pages/default" />
+                <use-document ref="//slothsoft@amber/api/editor" name="content" />
+            </fragment>
             <fragment name="gallery">
                 <import ref="/pages/default" />
                 <fragment name="content" use="document">
