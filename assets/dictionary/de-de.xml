@@ -939,12 +939,12 @@
                 Ambermoon entspricht.
             </p>
             <figure>
-                <img src="/slothsoft@amber/static/screenshots/Thalion-v1.05-DE" />
+                <img src="/slothsoft@amber.slothsoft.net/static/screenshots/Thalion-v1.05-DE" />
             </figure>
         </article>
     </sfd:fragment>
 
-    <sfd:fragment xml:id="page-body.Thalion-v1.06-DE">
+    <sfd:fragment xml:id="page-body.Slothsoft-v1.06-DE">
         <article class="post">
             <p>Ambermoon v1.06, Deutsch, vom 08.08.2017.</p>
             <p>Dieser Branch beinhaltet:</p>
@@ -971,7 +971,7 @@
                 Ambermoon entspricht.
             </p>
             <figure>
-                <img src="/slothsoft@amber/static/screenshots/Thalion-v1.06-DE" />
+                <img src="/slothsoft@amber.slothsoft.net/static/screenshots/Slothsoft-v1.06-DE" />
             </figure>
         </article>
     </sfd:fragment>
