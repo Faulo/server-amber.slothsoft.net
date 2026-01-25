@@ -1022,7 +1022,14 @@
                                 <li>Gryban kann Attacke und Magie Benutzen nicht maximieren</li>
                                 <li>Gryban erhält keine Levelaufstiege</li>
                                 <li>Selena hat maximal 2 statt 5% Kritische Treffer</li>
+                            </ul>
+                        </dd>
+                        <dt>Balancing-Änderungen:</dt>
+                        <dd>
+                            <ul class="red">
                                 <li>Niemand kann perfekt schwimmen</li>
+                                <li>Einige Waffen sind zu schwach</li>
+                                <li>"Scimitar" ist kein deutsches Wort</li>
                             </ul>
                         </dd>
                     </dl>
