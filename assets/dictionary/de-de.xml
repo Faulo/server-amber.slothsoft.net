@@ -640,6 +640,16 @@
                                 Offensichtlich handelt es sich hier um ein in irgendeiner Art und Weise magisch verstärkte Waffe, die nur
                                 zufällig so aussieht wie ein Krummsäbel. Vielleicht ist "Scimitar" ein Markenname?
                             </dd>
+
+                            <dt class="red">Magier können zu gut zaubern</dt>
+                            <dd>
+                                Magier haben SRL und M-B Maximum von 99%, obwohl alle anderen Fähigkeiten im Spiel (einschließlich der anderen zaubernden Klassen) im besten Fall ein Maximum von 95% haben.
+                                <br />
+                                Anmerkung:
+                                <br />
+                                Ein Maximum von 95% hat zwar eine starke Tradition (z.B. der "kritische Fehlschlag" beim Würfeln einer 1 auf einem 20-seitigen Würfel), aber Magier unterscheiden sich in mehreren Punkten von den anderen zaubernden Klassen: Sie haben mehr Attacke, weniger Parade, und
+                                sie erhalten (im Gegensatz zu Alchemisten und Mysterikern) nie eine weitere Attacke pro Runde. Was auch immer die Logik dahinter sein mag, es gibt keinen Grund anzunehmen, dass sie ein Maximum von 95% haben hätten sollen.
+                            </dd>
                         </dl>
                     </details>
 
@@ -1030,6 +1040,7 @@
                                 <li>Niemand kann perfekt schwimmen</li>
                                 <li>Einige Waffen sind zu schwach</li>
                                 <li>"Scimitar" ist kein deutsches Wort</li>
+                                <li>Magier können zu gut zaubern</li>
                             </ul>
                         </dd>
                     </dl>
