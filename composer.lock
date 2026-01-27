@@ -826,12 +826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-amber.git",
-                "reference": "f4ed839b5682fdecfe7e571173aa77e0153209cd"
+                "reference": "3c4ea3626764caec01f79aaafaef3020de486c08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/f4ed839b5682fdecfe7e571173aa77e0153209cd",
-                "reference": "f4ed839b5682fdecfe7e571173aa77e0153209cd",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/3c4ea3626764caec01f79aaafaef3020de486c08",
+                "reference": "3c4ea3626764caec01f79aaafaef3020de486c08",
                 "shasum": ""
             },
             "require": {
@@ -882,7 +882,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-amber/issues",
                 "source": "https://github.com/Faulo/slothsoft-amber/tree/main"
             },
-            "time": "2026-01-27T02:59:02+00:00"
+            "time": "2026-01-27T13:36:27+00:00"
         },
         {
             "name": "slothsoft/blob",
@@ -2216,16 +2216,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.32",
+            "version": "9.6.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "492ee10a8369a1c1ac390a3b46e0c846e384c5a4"
+                "reference": "b36f02317466907a230d3aa1d34467041271ef4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/492ee10a8369a1c1ac390a3b46e0c846e384c5a4",
-                "reference": "492ee10a8369a1c1ac390a3b46e0c846e384c5a4",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b36f02317466907a230d3aa1d34467041271ef4a",
+                "reference": "b36f02317466907a230d3aa1d34467041271ef4a",
                 "shasum": ""
             },
             "require": {
@@ -2299,7 +2299,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.32"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.34"
             },
             "funding": [
                 {
@@ -2323,7 +2323,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-24T16:04:20+00:00"
+            "time": "2026-01-27T05:45:00+00:00"
         },
         {
             "name": "psr/event-dispatcher",
