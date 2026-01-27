@@ -273,21 +273,9 @@ code {
 	width: 4ch;
 }
 
-.Amber .popup {
-	position: fixed;
-	top: 50%;
-	left: 0;
-	right: 0;
-	transform: translate(0, -50%);
-	margin: auto;
-	z-index: 20;
-	width: fit-content;
-	width: -moz-fit-content;
-	width: -webkit-fit-content;
-}
-
-.Amber .popup article {
-	margin: 0;
+.amber-popup>* {
+	border: 2px ridge #ccccbb;
+	border-radius: 2px;
 	box-shadow: black 0.25em 0.25em 0.5em, black 0.25em 0.25em 0.5em;
 }
 
