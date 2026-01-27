@@ -826,12 +826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-amber.git",
-                "reference": "30fdc995d589052e949f13d90a57e7f64b84139f"
+                "reference": "279182e8b7bbfedd0412ed003e52bdd819e7398d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/30fdc995d589052e949f13d90a57e7f64b84139f",
-                "reference": "30fdc995d589052e949f13d90a57e7f64b84139f",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/279182e8b7bbfedd0412ed003e52bdd819e7398d",
+                "reference": "279182e8b7bbfedd0412ed003e52bdd819e7398d",
                 "shasum": ""
             },
             "require": {
@@ -840,7 +840,7 @@
                 "php": "^8.0",
                 "slothsoft/core": "^1.14.17",
                 "slothsoft/farah": "^1.26.28",
-                "slothsoft/savegame": "^1.3.4"
+                "slothsoft/savegame": "^1.3.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "~9.6.23",
@@ -882,7 +882,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-amber/issues",
                 "source": "https://github.com/Faulo/slothsoft-amber/tree/main"
             },
-            "time": "2026-01-24T21:57:45+00:00"
+            "time": "2026-01-27T00:39:51+00:00"
         },
         {
             "name": "slothsoft/blob",
@@ -1076,16 +1076,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "1.26.28",
+            "version": "1.26.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-farah.git",
-                "reference": "d7b756515d3e3ca1c228de9ebfafe58f68005532"
+                "reference": "0f1fc79ef3fb7c9dd1ee565375647ba10bf3e31f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/d7b756515d3e3ca1c228de9ebfafe58f68005532",
-                "reference": "d7b756515d3e3ca1c228de9ebfafe58f68005532",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-farah/zipball/0f1fc79ef3fb7c9dd1ee565375647ba10bf3e31f",
+                "reference": "0f1fc79ef3fb7c9dd1ee565375647ba10bf3e31f",
                 "shasum": ""
             },
             "require": {
@@ -1149,22 +1149,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-farah/issues",
-                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.26.28"
+                "source": "https://github.com/Faulo/slothsoft-farah/tree/1.26.29"
             },
-            "time": "2026-01-24T21:56:01+00:00"
+            "time": "2026-01-25T01:06:13+00:00"
         },
         {
             "name": "slothsoft/savegame",
-            "version": "1.3.4",
+            "version": "1.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-savegame.git",
-                "reference": "c61113b7285469b1b1b215688d18e5864bbc78c4"
+                "reference": "749dfd92809fc49ec7a740babc386a6f814e2ba2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-savegame/zipball/c61113b7285469b1b1b215688d18e5864bbc78c4",
-                "reference": "c61113b7285469b1b1b215688d18e5864bbc78c4",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-savegame/zipball/749dfd92809fc49ec7a740babc386a6f814e2ba2",
+                "reference": "749dfd92809fc49ec7a740babc386a6f814e2ba2",
                 "shasum": ""
             },
             "require": {
@@ -1213,9 +1213,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Faulo/slothsoft-savegame/issues",
-                "source": "https://github.com/Faulo/slothsoft-savegame/tree/1.3.4"
+                "source": "https://github.com/Faulo/slothsoft-savegame/tree/1.3.6"
             },
-            "time": "2026-01-24T21:38:17+00:00"
+            "time": "2026-01-26T23:27:46+00:00"
         },
         {
             "name": "slothsoft/sse",
