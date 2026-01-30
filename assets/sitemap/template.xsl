@@ -38,6 +38,9 @@
                 <sfm:param name="repository" value="{@repository}" />
             </xsl:if>
             <sfm:param name="version" value="{@name}" />
+            <page name="NewGame" title="NewGame" ref="pages/{$game}/editor" status-active="" status-public="">
+                <sfm:param name="infosetId" value="lib.new" />
+            </page>
             <page name="SaveEditor" title="SavegameEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                 <sfm:param name="infosetId" value="lib.save" />
             </page>
