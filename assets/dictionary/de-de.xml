@@ -23,6 +23,7 @@
     <sfd:text xml:id="page-title.Gallery">Bildergalerie</sfd:text>
     <sfd:text xml:id="page-title.Runenalphabet">Runenalphabet</sfd:text>
 
+    <sfd:text xml:id="page-title.NewGame">Party-Erstellungseditor</sfd:text>
     <sfd:text xml:id="page-title.SaveEditor">Spielstandseditor</sfd:text>
 
     <sfd:text xml:id="page-title.GameEngine">Spieldatenbearbeitung</sfd:text>

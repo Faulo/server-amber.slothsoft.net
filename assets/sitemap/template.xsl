@@ -18,10 +18,11 @@
             <page name="EditorHelp" ref="pages/{$game}/default" status-active="" status-public="" />
             <page name="Downloads" ref="pages/{$game}/default" status-active="" status-public="" />
             <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" />
-            <page name="Runenalphabet" ref="/pages/{$game}/runes" status-active="" status-public="" />
 
             <xsl:apply-templates select="mod" />
         </page>
+
+        <page name="Runenalphabet" ref="/pages/{$game}/runes" status-active="" status-public="" />
 
         <file name="sitemap.xml" ref="//slothsoft@farah/sitemap-generator" />
         <file name="favicon.ico" ref="/static/icons/Ambermoon" />
@@ -40,6 +41,7 @@
             <sfm:param name="version" value="{@name}" />
             <page name="NewGame" title="NewGame" ref="pages/{$game}/editor" status-active="" status-public="">
                 <sfm:param name="infosetId" value="lib.new" />
+                <sfm:param name="archivePath" value="_" />
             </page>
             <page name="SaveEditor" title="SavegameEditor" ref="pages/{$game}/editor" status-active="" status-public="">
                 <sfm:param name="infosetId" value="lib.save" />
