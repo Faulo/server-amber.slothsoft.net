@@ -1129,4 +1129,23 @@
             </p>
         </article>
     </sfd:fragment>
+
+    <sfd:fragment xml:id="page-body.NewGame">
+        <article class="post" xml:space="preserve">
+            <p>Hier lässt sich ein neuer Spielstand mit einer frei zusammengestellten Gruppe konfigurieren.</p>
+            <p>Inspiriert von Spielen wie Might and Magic und Wizardry ist es in etwa das Interface, welches m.M.n. anstelle der bloßen Auswahl des Portraits in Ambermoon hätte sein sollen. :)</p>
+            <p>
+                Alle Charaktere, die Teil der hier eingestellten Gruppe sind, starten auf Stufe 1, mit 0 Erfahrungspunkten. Lebenpunkte, Spruchpunkte, etc. werden ebenfalls auf entsprechende Werte für Stufe 1 gesetzt. Gold und Nahrung sind 0, das Inventar und Zauberbuch sind leer.
+                Der Charakter-Pool
+                dafür
+                bedient
+                sich aus den Thalionern; entsprechend wird man sie, wenn hier rekrutiert, nicht im Thalion Büro antreffen. Thalioner, die nicht Teil der hier erstellten Gruppe sind, bleiben unangetastet.
+            </p>
+            <p>
+                Der
+                <span class="amber-text amber-text--orange">Neu Würfeln</span>
+                Button versucht, in etwa die Werte zu reproduzieren, die man bei Thalion, Egil und den anderen Spielercharakteren vorfindet, auf alle Klassen und Rassen erweitert.
+            </p>
+        </article>
+    </sfd:fragment>
 </sfd:dictionary>
