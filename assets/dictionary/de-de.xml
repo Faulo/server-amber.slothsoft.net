@@ -1145,9 +1145,9 @@
                 Der Button <span class="amber-text amber-text--orange">Level Anwenden</span> setzt die levelabhängigen Variablen als Produkt von 
                 <span class="amber-text">Level</span> und den <span class="amber-text">pro Level</span> Feldern. 
                 Interessant dabei ist, dass diese Rechnung zwar für die vorgegebenen Charaktere aufgeht 
-                (z.b. hat <span class="amber-text amber-text--yellow">Erik</span> exakt <span class="amber-text">50*16=800LP</span>),
-                aber die tatsächliche Level-Up Mechanik im Spiel vergibt nicht immer die maximal möglichen Lebenspunkte.
-                Daraus folgt, dass ein Krieger "in freier Wildbahn" auf Level 50 sehr viel weniger als 800 Lebenspunkte besitzen würde.
+                (z.B. hat <span class="amber-text amber-text--yellow">Erik</span> exakt <span class="amber-text">50*16=800&#160;LP</span>),
+                aber die tatsächliche Level-Up Mechanik im Spiel vergibt nicht immer die maximal möglichen Werte für LP, SP, TP und SLP.
+                Daraus folgt, dass ein "wildgewachsener" Krieger auf Level 50 sehr viel weniger als 800 Lebenspunkte besitzen würde.
             </p>
         </article>
     </sfd:fragment>
