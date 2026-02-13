@@ -1130,21 +1130,44 @@
         </article>
     </sfd:fragment>
 
+    <sfd:fragment xml:id="page-body.SaveEditor">
+        <article class="post" xml:space="preserve">
+            <p>
+                Dies ist ein Editor für die Dateien, die einen Ambermoon-Spielstand ausmachen. Die nachfolgenden Dateien entsprechen dem Standard-Spielstand
+                (<span class="amber-text amber-text--cyan">Save.00</span>), der zu Spielbeginn geladen wird.
+                Das Formular erlaubt auch das Hochladen und Bearbeiten eigener Dateien (aus eurem jeweiligen <span class="amber-text amber-text--cyan">Save.**</span> Ordner).                
+            </p>
+            <p>
+                Der Editor vergibt beim Speichern eine einzigartige Nutzer-ID, über die der Spielstand auch später noch abrufbar ist. 
+                Der Server speichert allerdings keine IPs oder Cookies oder sowas, deshalb müsst ihr euch die URL eures Spielstands nach dem Speichern selbst merken.
+            </p>
+            <p>
+                Der Button <span class="amber-text amber-text--orange">Level Anwenden</span> setzt die levelabhängigen Variablen als Produkt von 
+                <span class="amber-text">Level</span> und den <span class="amber-text">pro Level</span> Feldern. 
+                Interessant dabei ist, dass diese Rechnung zwar für die vorgegebenen Charaktere aufgeht 
+                (z.b. hat <span class="amber-text amber-text--yellow">Erik</span> exakt <span class="amber-text">50*16=800LP</span>),
+                aber die tatsächliche Level-Up Mechanik im Spiel vergibt nicht immer die maximal möglichen Lebenspunkte.
+                Daraus folgt, dass ein Krieger "in freier Wildbahn" auf Level 50 sehr viel weniger als 800 Lebenspunkte besitzen würde.
+            </p>
+        </article>
+    </sfd:fragment>
+
     <sfd:fragment xml:id="page-body.NewGame">
         <article class="post" xml:space="preserve">
             <p>Hier lässt sich ein neuer Spielstand mit einer frei zusammengestellten Gruppe konfigurieren.</p>
             <p>Inspiriert von Spielen wie Might and Magic und Wizardry ist es in etwa das Interface, welches m.M.n. anstelle der bloßen Auswahl des Portraits in Ambermoon hätte sein sollen. :)</p>
             <p>
-                Alle Charaktere, die Teil der hier eingestellten Gruppe sind, starten auf Stufe 1, mit 0 Erfahrungspunkten. Lebenpunkte, Spruchpunkte, etc. werden ebenfalls auf entsprechende Werte für Stufe 1 gesetzt. Gold und Nahrung sind 0, das Inventar und Zauberbuch sind leer.
-                Der Charakter-Pool
-                dafür
-                bedient
-                sich aus den Thalionern; entsprechend wird man sie, wenn hier rekrutiert, nicht im Thalion Büro antreffen. Thalioner, die nicht Teil der hier erstellten Gruppe sind, bleiben unangetastet.
+                Alle Charaktere, die Teil der hier eingestellten Gruppe sind, starten auf Stufe 1, mit 0 Erfahrungspunkten.
+                Lebenpunkte, Spruchpunkte, etc. werden ebenfalls auf entsprechende Werte für Stufe 1 gesetzt. 
+                Gold und Nahrung sind 0, das Inventar und Zauberbuch sind leer.
+                Der Charakter-Pool dafür bedient sich aus den Thalionern; 
+                entsprechend wird man sie, wenn hier rekrutiert, nicht im Thalion Büro antreffen.
+                Thalioner, die nicht Teil der hier erstellten Gruppe sind, bleiben unangetastet.
             </p>
             <p>
-                Der
-                <span class="amber-text amber-text--orange">Neu Würfeln</span>
-                Button versucht, in etwa die Werte zu reproduzieren, die man bei Thalion, Egil und den anderen Spielercharakteren vorfindet, auf alle Klassen und Rassen erweitert.
+                Der <span class="amber-text amber-text--orange">Neu Würfeln</span> Button versucht, 
+                in etwa die Werte zu reproduzieren, die man bei Thalion, Egil und den anderen Spielercharakteren vorfindet, 
+                auf alle Klassen und Rassen erweitert.
             </p>
         </article>
     </sfd:fragment>
