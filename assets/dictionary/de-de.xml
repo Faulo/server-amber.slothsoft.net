@@ -38,7 +38,7 @@
     <sfd:text xml:id="page-title.PCList">Spielercharaktere</sfd:text>
     <sfd:text xml:id="page-title.NPCList">Nichtspieler­charaktere</sfd:text>
     <sfd:text xml:id="page-title.MonsterList">Monsterliste</sfd:text>
-    <sfd:text xml:id="page-title.ClassList">Klassenliste</sfd:text>
+    <sfd:text xml:id="page-title.ClassList">Rassen &amp; Klassen</sfd:text>
     <sfd:text xml:id="page-title.PortraitList">Portraitliste</sfd:text>
     <sfd:text xml:id="page-title.Maps2D">Gebäude</sfd:text>
     <sfd:text xml:id="page-title.Maps3D">Städte &amp; Dungeons</sfd:text>
