@@ -65,7 +65,9 @@ final class AmberSourceTest extends TestCase {
         
         $versions = [
             '1.05' => 'Thalion-v1.05-DE',
-            '1.06' => 'Slothsoft-v1.06-DE'
+            '1.06' => 'Slothsoft-v1.06-DE',
+            '1.07' => 'Slothsoft-v1.07-DE',
+            '1.12' => 'Pyrdacor-v1.12-DE'
         ];
         
         foreach ($infosets as $infosetKey => $infosetId) {
