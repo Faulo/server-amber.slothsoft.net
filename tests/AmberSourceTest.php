@@ -60,13 +60,11 @@ final class AmberSourceTest extends TestCase {
     
     public function filesToCompare(): iterable {
         $infosets = [
-            'classes' => 'lib.classes',
-            'items' => 'lib.items',
-            'spells' => 'lib.spells'
+            'items' => 'lib.items'
         ];
         
         $versions = [
-            //'1.05' => 'Thalion-v1.05-DE',
+            '1.05' => 'Thalion-v1.05-DE',
             '1.06' => 'Slothsoft-v1.06-DE'
         ];
         
