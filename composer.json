@@ -46,6 +46,6 @@
 	],
 	"homepage" : "http://amber.slothsoft.net",
 	"config" : {
-		"process-timeout" : 900
+		"process-timeout" : 3600
 	}
 }
