@@ -7,37 +7,29 @@ use Slothsoft\Core\DOMHelper;
 use Slothsoft\FarahTesting\Constraints\DOMNodeEqualTo;
 use Slothsoft\Farah\FarahUrl\FarahUrl;
 use Slothsoft\Farah\FarahUrl\FarahUrlArguments;
-use DOMDocumentFragment;
 
 final class AmberSourceTest extends TestCase {
     
     private const AMBERDATA = 'farah://slothsoft@amber/api/editor-data';
     
-    private const SAVEGAME = 'farah://slothsoft@amber/api/savegame';
-    
     private const REPOSITORY = 'farah://slothsoft@amber.slothsoft.net/source';
     
     private const GAME = 'ambermoon';
     
-    private static function getFileNodes(FarahUrl $url): DOMDocumentFragment {
+    private static function getFileNodes(FarahUrl $url): array {
         $document = DOMHelper::loadDocument((string) $url);
+        
         $xpath = DOMHelper::loadXPath($document);
-        $nodes = [
+        return [
             ...$xpath->evaluate('/*/*/*')
         ];
-        
-        $result = $document->createDocumentFragment();
-        foreach ($nodes as $node) {
-            $result->appendChild($node);
-        }
-        return $result;
     }
     
     /**
      *
      * @dataProvider filesToCompare
      */
-    public function test_CPU_equals_BLIT(string $infosetId, string $version): void {
+    public function test_CPU_equals_BLIT(string $infosetId, string $version, int $index): void {
         $args = FarahUrlArguments::createFromValueList([
             'repository' => self::REPOSITORY,
             'game' => self::GAME,
@@ -52,15 +44,15 @@ final class AmberSourceTest extends TestCase {
         $cpuUrl = $url->withAdditionalQueryArguments($cpuArgs);
         $blitUrl = $url->withAdditionalQueryArguments($blitArgs);
         
-        $cpuNode = self::getFileNodes($cpuUrl);
-        $blitNode = self::getFileNodes($blitUrl);
+        $cpuNodes = self::getFileNodes($cpuUrl);
+        $blitNodes = self::getFileNodes($blitUrl);
         
-        $this->assertThat($cpuNode, new DOMNodeEqualTo($blitNode));
+        $this->assertThat($cpuNodes[$index], new DOMNodeEqualTo($blitNodes[$index]));
     }
     
     public function filesToCompare(): iterable {
         $infosets = [
-            'items' => 'lib.items'
+            'AM2' => 'lib.items'
         ];
         
         $versions = [
@@ -70,12 +62,20 @@ final class AmberSourceTest extends TestCase {
             '1.12' => 'Pyrdacor-v1.12-DE'
         ];
         
+        $files = [
+            'CODE-1' => 0,
+            'DATA-2' => 1
+        ];
+        
         foreach ($infosets as $infosetKey => $infosetId) {
             foreach ($versions as $versionKey => $version) {
-                yield "{$infosetKey} v{$versionKey}" => [
-                    $infosetId,
-                    $version
-                ];
+                foreach ($files as $fileKey => $file) {
+                    yield "{$infosetKey} v{$versionKey} $fileKey" => [
+                        $infosetId,
+                        $version,
+                        $file
+                    ];
+                }
             }
         }
     }
