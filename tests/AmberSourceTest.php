@@ -47,7 +47,7 @@ final class AmberSourceTest extends TestCase {
         $cpuNodes = self::getFileNodes($cpuUrl);
         $blitNodes = self::getFileNodes($blitUrl);
         
-        $this->assertThat($cpuNodes[$index], new DOMNodeEqualTo($blitNodes[$index]));
+        $this->assertEquals(DOMNodeEqualTo::stringify($cpuNodes[$index]), DOMNodeEqualTo::stringify($blitNodes[$index]));
     }
     
     public function filesToCompare(): iterable {
