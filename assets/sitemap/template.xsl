@@ -84,6 +84,9 @@
                 <page name="PortraitList" title="PortraitList" ref="pages/{$game}/resource" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.portraits" />
                 </page>
+                <page name="SpellList" title="SpellList" ref="pages/{$game}/resource" status-active="" status-public="">
+                    <sfm:param name="infosetId" value="lib.spells" />
+                </page>
                 <!-- <page name="Maps2D" title="Maps2D" ref="pages/{$game}/resource" status-active="" status-public=""> <sfm:param name="infosetId" value="lib.maps-2d" /> </page> <page name="Maps3D" title="Maps3D" ref="pages/{$game}/resource" status-active="" status-public=""> <sfm:param name="infosetId" 
                     value="lib.maps-3d" /> </page> <page name="WorldmapLyramion" title="WorldmapLyramion" ref="pages/{$game}/resource" status-active=""> <sfm:param name="infosetId" value="lib.worldmap-lyramion" /> </page> <page name="WorldmapKire" title="WorldKire" ref="pages/{$game}/resource" status-active="" status-public=""> 
                     <sfm:param name="infosetId" value="lib.worldmap-kire" /> </page> <page name="WorldmapMorag" title="WorldmapMorag" ref="pages/{$game}/resource" status-active="" status-public=""> <sfm:param name="infosetId" value="lib.worldmap-morag" /> </page> -->
