@@ -24,7 +24,7 @@
 
     <fragment name="pages">
         <fragment name="default">
-            <import ref="//slothsoft@amber/includes/AmberPicker" />
+            <import ref="//slothsoft@amber/includes/AmberPopup" />
             <link-stylesheet ref="/css/ambermoon" />
             <link-stylesheet ref="/css/default" />
             <link-stylesheet ref="/css/fonts" />

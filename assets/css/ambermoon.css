@@ -178,12 +178,12 @@ code {
 }
 
 .amber-list--item-list .amber-list__item, .amber-list--pc-list .amber-list__item,
-	.amber-list--npc-list .amber-list__item, .amber-list--monster-list .amber-list__item
-	{
+	.amber-list--npc-list .amber-list__item, .amber-list--monster-list .amber-list__item {
 	margin: 0.5em 0;
 }
 
-.amber-list--portrait-list .amber-list__item {
+.amber-list--portrait-list .amber-list__item,
+    .amber-list--spellbook-list .amber-list__item {
 	margin: 0.5em;
 }
 
