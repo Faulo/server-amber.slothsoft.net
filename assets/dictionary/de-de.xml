@@ -38,6 +38,7 @@
     <sfd:text xml:id="page-title.PCList">Spielercharaktere</sfd:text>
     <sfd:text xml:id="page-title.NPCList">Nichtspieler­charaktere</sfd:text>
     <sfd:text xml:id="page-title.MonsterList">Monsterliste</sfd:text>
+    <sfd:text xml:id="page-title.Loot">Händler &amp; Truhen</sfd:text>
     <sfd:text xml:id="page-title.ClassList">Rassen &amp; Klassen</sfd:text>
     <sfd:text xml:id="page-title.PortraitList">Portraitliste</sfd:text>
     <sfd:text xml:id="page-title.SpellList">Zaubersprüche</sfd:text>

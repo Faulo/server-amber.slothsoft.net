@@ -169,21 +169,15 @@ code {
 	border: 2px ridge #ccccbb;
 	border-radius: 2px;
 	display: flex;
+	margin: 0.5em 0.25em;
 }
 
-.amber-list--item-list .amber-list__items, .amber-list--pc-list .amber-list__items,
-	.amber-list--npc-list .amber-list__items, .amber-list--monster-list .amber-list__items
-	{
+.amber-list__items {
 	justify-content: space-evenly;
 }
 
-.amber-list--item-list .amber-list__item, .amber-list--pc-list .amber-list__item,
-	.amber-list--npc-list .amber-list__item, .amber-list--monster-list .amber-list__item {
-	margin: 0.5em 0;
-}
-
 .amber-list--portrait-list .amber-list__item,
-    .amber-list--spellbook-list .amber-list__item {
+	.amber-list--spellbook-list .amber-list__item {
 	margin: 0.5em;
 }
 

@@ -78,6 +78,9 @@
                 <page name="MonsterList" title="MonsterList" ref="pages/{$game}/resource" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.monsters" />
                 </page>
+                <page name="Loot" title="ClassList" ref="pages/{$game}/resource" status-active="" status-public="">
+                    <sfm:param name="infosetId" value="lib.loot" />
+                </page>
                 <page name="ClassList" title="ClassList" ref="pages/{$game}/resource" status-active="" status-public="">
                     <sfm:param name="infosetId" value="lib.classes" />
                 </page>
