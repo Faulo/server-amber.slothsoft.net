@@ -21,11 +21,11 @@
 		"slothsoft/savegame" : "^1.0.10",
 		"slothsoft/chat" : "^1.0",
 		"slothsoft/core" : "^1.14",
-		"slothsoft/farah" : "^1.24"
+		"slothsoft/farah" : "^1.27"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "~9.6.23",
-		"slothsoft/farah-testing" : "^1.1.2"
+		"slothsoft/farah-testing" : "^1.3.1"
 	},
 	"autoload-dev" : {
 		"classmap" : [
@@ -44,7 +44,7 @@
 			"email" : "info.slothsoft@gmail.com"
 		}
 	],
-	"homepage" : "http://amber.slothsoft.net",
+	"homepage" : "https://amber.slothsoft.net",
 	"config" : {
 		"process-timeout" : 3600
 	}
