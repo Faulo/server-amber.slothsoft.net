@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b95cd9fff76ca66e9bd40904657661bf",
+    "content-hash": "3021b42f50b8b24c3d6069ab53f529ca",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -1154,12 +1154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Faulo/slothsoft-amber.git",
-                "reference": "bc3b9661c6606366e3accc6e4f7966fdba329eb6"
+                "reference": "5b82227d148889135a134e002c3f01bc1be1ed48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/bc3b9661c6606366e3accc6e4f7966fdba329eb6",
-                "reference": "bc3b9661c6606366e3accc6e4f7966fdba329eb6",
+                "url": "https://api.github.com/repos/Faulo/slothsoft-amber/zipball/5b82227d148889135a134e002c3f01bc1be1ed48",
+                "reference": "5b82227d148889135a134e002c3f01bc1be1ed48",
                 "shasum": ""
             },
             "require": {
@@ -1210,7 +1210,7 @@
                 "issues": "https://github.com/Faulo/slothsoft-amber/issues",
                 "source": "https://github.com/Faulo/slothsoft-amber/tree/main"
             },
-            "time": "2026-03-13T14:01:50+00:00"
+            "time": "2026-03-13T15:58:50+00:00"
         },
         {
             "name": "slothsoft/blob",
