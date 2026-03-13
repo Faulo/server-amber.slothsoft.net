@@ -1,6 +1,6 @@
 <?php
 declare(strict_types = 1);
-namespace Slothsoft\Server\Amber\Tests;
+namespace Slothsoft\Server\Amber;
 
 use PHPUnit\Framework\TestCase;
 use Slothsoft\Core\DOMHelper;
