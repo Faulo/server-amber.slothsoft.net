@@ -14,6 +14,8 @@
 
     <resource name="games-index" type="application/xml" />
 
+    <resource-directory name="release" type="*/*" />
+
     <resource-directory name="source" type="*/*" />
 
     <directory name="static">
@@ -52,11 +54,11 @@
                     <use-template ref="/xsl/content/gallery" />
                 </fragment>
             </fragment>
-            <fragment name="runes">
-                <import ref="/pages/default" />
-                <fragment name="content" use="document">
-                    <use-template ref="/xsl/content/runes" />
-                </fragment>
+        </fragment>
+        <fragment name="runes">
+            <import ref="/pages/default" />
+            <fragment name="content" use="document">
+                <use-template ref="/xsl/content/runes" />
             </fragment>
         </fragment>
     </fragment>

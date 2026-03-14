@@ -503,7 +503,7 @@
                     </p>
                     <p>
                         Unter
-                        <a href="../Downloads/">Downloads</a>
+                        <a href="/Downloads/">Downloads</a>
                         gibt es Patches für ein paar dieser Bugs.
                     </p>
                     <p>Farblegende:</p>
@@ -976,7 +976,7 @@
                     <a href="http://aminet.net/package/game/patch/amberfix" rel="external">Aminet's "amberfix" Patch</a>
                 </li>
                 <li>
-                    <a href="../Downloads/">Mein Patch</a>
+                    <a href="/Downloads/">Mein Patch</a>
                     (v1.06)
                 </li>
             </ul>
@@ -993,7 +993,7 @@
         <article class="post">
             <p>
                 Hier biete ich Patches für die
-                <a href="../EditorHelp/">mir bekannten Bugs</a>
+                <a href="/Ambermoon/EditorHelp/">mir bekannten Bugs</a>
                 an.
             </p>
 
@@ -1007,6 +1007,45 @@
 
                 <details>
                     <summary>
+                        <h2>Ambermoon v1.07 14-3-2026 / Deutsch</h2>
+                    </summary>
+                    <dl>
+                        <dt>Download:</dt>
+                        <dd>
+                            <ul>
+                                <li>
+                                    <a href="/Downloads/Ambermoon.v1.07.zip">Ambermoon.v1.07.zip</a>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt>Behobene Bugs:</dt>
+                        <dd>
+                            <ul class="gray">
+                                <li>Magische Bolzen benötigen 0 Hände</li>
+                                <li>Schleudermesser/dolche erhöhen den Angriff von Nahkampfwaffen</li>
+                                <li>Zielbroschen sind Amulette</li>
+                                <li>Der Krypta-Schlüssel ist ein Amulett</li>
+                                <li>Valdyn kann Schwimmen nicht maximieren</li>
+                                <li>Sabine kann Magie Benutzen nicht maximieren</li>
+                                <li>Leonardia kann Magie Benutzen nicht maximieren</li>
+                                <li>Targor kann Attacke nicht maximieren</li>
+                                <li>Gryban kann Attacke und Magie Benutzen nicht maximieren</li>
+                                <li>Gryban erhält keine Levelaufstiege</li>
+                                <li>Selena hat maximal 2 statt 5% Kritische Treffer</li>
+                                <li>Bänderpanzer, Plattenpanzer und Ritterrüstung reduzieren Attacke nicht</li>
+                                <li>Schaufel kann nicht als Waffe ausgerüstet werden</li>
+                                <li>Schrankschlüssel ist unwichtig</li>
+                                <li>Mörderklinge braucht keine Hände</li>
+                                <li>Runenalphabet verschwindet nicht bei Benutzung</li>
+                                <li>Karte von Lyramion verschwindet nicht bei Benutzung</li>
+                                <li>Gala's Stab ist keine Nahkampfwaffe</li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </details>
+
+                <details>
+                    <summary>
                         <h2>Ambermoon v1.06 8-08-2017 / Deutsch</h2>
                     </summary>
                     <dl>
@@ -1014,10 +1053,10 @@
                         <dd>
                             <ul>
                                 <li>
-                                    <a href="/slothsoft@amber/release/Ambermoon.v1.06.zip">Ambermoon.v1.06.zip</a>
+                                    <a href="/Downloads/Ambermoon.v1.06.zip">Ambermoon.v1.06.zip</a>
                                 </li>
                                 <li>
-                                    <a href="/slothsoft@amber/release/Ambermoon.v1.06.lha">Ambermoon.v1.06.lha</a>
+                                    <a href="/Downloads/Ambermoon.v1.06.lha">Ambermoon.v1.06.lha</a>
                                 </li>
                             </ul>
                         </dd>

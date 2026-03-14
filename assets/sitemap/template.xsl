@@ -5,6 +5,17 @@
     <xsl:template match="/*">
         <domain name="amber.slothsoft.net" vendor="slothsoft" module="amber.slothsoft.net" ref="pages/default" status-active="" status-public="" sfd:languages="de-de en-us" version="1.1">
             <xsl:apply-templates select="*[@name='index']/*" />
+
+            <page name="Downloads" ref="pages/default" status-active="" status-public="">
+                <file name="Ambermoon.v1.06.zip" ref="release/Ambermoon.v1.06.zip" status-active="" />
+                <file name="Ambermoon.v1.06.lha" ref="release/Ambermoon.v1.06.lha" status-active="" />
+                <file name="Ambermoon.v1.07.zip" ref="release/Ambermoon.v1.07.zip" status-active="" />
+            </page>
+
+            <page name="Runenalphabet" ref="/pages/runes" status-active="" status-public="" />
+
+            <file name="sitemap.xml" ref="//slothsoft@farah/sitemap-generator" />
+            <file name="favicon.ico" ref="/static/icons/Ambermoon" />
         </domain>
     </xsl:template>
 
@@ -16,16 +27,10 @@
             <sfm:param name="game" value="{$game}" />
 
             <page name="EditorHelp" ref="pages/{$game}/default" status-active="" status-public="" />
-            <page name="Downloads" ref="pages/{$game}/default" status-active="" status-public="" />
             <page name="Gallery" ref="/pages/{$game}/gallery" status-active="" />
 
             <xsl:apply-templates select="mod" />
         </page>
-
-        <page name="Runenalphabet" ref="/pages/{$game}/runes" status-active="" status-public="" />
-
-        <file name="sitemap.xml" ref="//slothsoft@farah/sitemap-generator" />
-        <file name="favicon.ico" ref="/static/icons/Ambermoon" />
     </xsl:template>
 
 
