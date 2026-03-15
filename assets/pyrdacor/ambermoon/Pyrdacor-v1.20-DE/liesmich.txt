@@ -1,0 +1,337 @@
+Ambermoon German 1.20 by Pyrdacor (23-11-2025)
+==============================================
+
+�nderungen in 1.20
+==================
+
+- Anpassungen in der Antiken Anlage
+  - Der Ausgang zur Zwergenmine is nun auf der Karte sichtbar
+  - Wenn man die Anlage zur Mine verl�sst, stimmt nun die Blickrichtung
+  - Fehlende Fahrstuhlplatten wurden behoben, wenn man runter und wieder hochfuhr
+  - Im letzten Raum mit den Wandf�chern mit den Nav-Steinen wurde ein Bug behoben
+    wenn man an den F�chern das Schl�sser knacken vergeigt. Normal spawnen dann
+    Monster und ein Text erscheint. Wenn die Monster aber bereits da sind, kommt
+    nun der Text nicht erneut, der besagt dass Monster auftauchen.
+  - Wenn man Nav-Steine baut und die Maschine �ffnet, den Nav-Stein aber liegen l�sst,
+    dann wird dieser nicht l�nger vernichtet. Man kann ihn dann einfach sp�ter nochmal
+    herausnehmen.
+- Beim SP Stehler Zauber wurde ein visueller Bug mit der Gr��e des gr�nen Kreises behoben
+- Neras Ring wird nicht l�nger von Bralum eingesackt, wenn man ihn ihm gibt statt ihn nur zu zeigen
+- Einige kleinere deutsche Textfehler wurden behoben:
+  - Der Suchtrainer in der Gnommine: "Such Trainer" -> "Suchtrainer"
+  - Willkommensnachricht aller Suchtrainer: "M�chtet du" -> "M�chtet ihr"
+  - Lady Heidis Antwort auf Feen: "Augestanden" -> "Aufgestanden"
+  - Schnellreisepunkt in S'Angrila: "Warnehandel" -> "Warenhandel"
+  - Begr��ungstext Lebab: "Wilkommen" -> "Willkommen"
+  - Betrachten von Nagier: "mit mit gro�er Geschmeidigkeit" -> "mit gro�er Geschmeidigkeit"
+- Ein Fehler wurde behoben, durch den Monster die Bedrohung der hinteren Spielerreihe nicht
+  berechnet haben, wenn sie das Ziel f�r einen Reihenzauber aussuchen. Dadurch ist die
+  Bedrohung der hinteren Reihe stets 0 und wenn die vorderer Reihe Schaden austeilt, wird sie
+  immer fokussiert. Das ist nun nicht mehr der Fall.
+- Eventgesteuerte Belohnungen mit Zufallswerten (z.B. Wunschbrunnen) geben nun 1 bis Max-Wert
+  Punkte und nicht 0 bis Max-Wert minus 1. Sie funktionieren nun genau wie Tr�nke (z.B. St�rke
+  Trunk) und k�nnen niemals gar nichts geben.
+- Wenn ein Spiel-Jahr verstreicht, altern Charaktere nicht mehr um 2 Jahre sondern korrekt um 1.
+
+�nderungen in 1.19
+==================
+
+- Das falsche magische Waffenlevel (M-B-W) f�r Mando wurde gefixt.
+- Der falsche Text-Index, wenn man Gryban oder Chris ansieht, wurde gefixt.
+- Falsche Max-Werte f�r Netsraks F�higkeiten "Magie benutzen" und "Spruchrollen lesen" wurden gefixt.
+- Durch falsche Daten war die T�r zum Windschrein kaputt. Dies ist nun behoben.
+
+�nderungen in 1.18
+==================
+
+- 2 Schalter in der Antiken Anlage 2 wurden gefixt, die nicht mehr zur�cksprangen bei erneutem Dr�cken (im Kreis mit den Blitzen)
+- Einige ungenutzte Map-Events wurden in der Antiken Anlage 4 entfernt (diese waren Kopien von Level 2)
+- Ein Event in Dor Kiredon wurde behoben, sodass nun an den Stadtmauern K�mpfe mit Gizzeks auftreten k�nnen
+- Eine Flamme in Dorina's H�hle wurde gefixt, sodass diese auch Schaden anrichtet wie die anderen
+- Pelanis reagiert nun korrekt auf W�rter wenn man Sansries Blut abgegeben hat
+- Der Charakter von Monika Krawinkel hat nun endlich ein weibliches Aussehen auf der Map
+- Einige Bugs in Kires Residenz wurden behoben
+  - Es gab einige verbuggte Tiles, sodass man manchmal auf W�nden stand
+  - Die T�r zur Schatzkammer funktioniert nun besser (der Schl�ssel wird nun zerst�rt aber die T�r bleibt offen)
+  - Die T�r kann nun auch passiert werden wenn man mit der Hand draufklickt
+  - Der S�deingang ist nun mittig zur Eingangshalle ausgerichtet
+- Ein Musik-Bug im Morag Hangar wurde behoben, der aber nicht im Spiel bemerkbar war
+- Einige Waffenlevel (M-B-W) wurden angepasst
+  - Zweih�nder: 0 -> 1
+  - Heiliges Schwert: 0 -> 1
+  - Trident: 0 -> 1
+  - Armbrust: 0 -> 1
+  - Mando's Schwert: 0 -> 2
+  - M�rderklinge: 0 -> 1
+  - Feuerbrand: 2 -> 1
+  - Valdyn's Schwert: 3 -> 1
+  - Keule der Gala: 2 -> 1
+  - Scimitar: 1 -> 2
+- Die Zielbrosche ist nun eine Brosche und kein Amulett mehr
+- Im Keller der Banditen wurden einige Anpassungen vorgenommen:
+  - Der Text �ber die 2 Schalter wird nicht mehr angezeigt wenn man den Teleporter falsch betritt (dort ist nur 1 Schalter)
+  - Der Text �ber die 2 Schalter wird nicht mehr in jedem Raum angezeigt wenn man in einen sp�teren Raum teleportiert wird und dann zur�ckl�uft
+  - Der Text �ber die 2 Schalter wird nicht mehr angezeigt wenn man bereits Frieden mit Nagier geschlossen hat
+  - Ein Bug wurde behoben, durch den man einen Schalter durch die Wand aktivieren konnte und somit direkt zu Nagier gelangte
+- Ein Bug in der N�he des Alchemistenturms wurde behoben, bei dem man Schwimmschaden erleiden konnte wenn man hinter dem Dach der Turmspitze langlief
+
+�nderungen in 1.17
+==================
+
+- Map Events im Banditenhaus wurden behoben, die in 1.16 kaputt gingen
+- Einige Texte wurden verbessert oder behoben:
+  - NPC Bellard
+  - Wenn S'Kat einen angreift
+  - Im Tempel von S'Trog
+  - Im S'Angrila Gef�ngnis
+  - NPC Ketnar
+  - Willkommen-Nachricht in Dor Kiredon
+- Im Thalion B�ro blockieren einige Tiles der Treppe nun, damit visuelle Fehler nicht mehr auftreten
+- Auf dem Waldmond (ca bei 150,80) wurden falsche Tiles behoben
+- Man kann nicht l�nger auf Lava landen oder gehen
+- Nachdem man S'Arin trifft, bleibt die dramatische Musik nicht l�nger f�r immer bestehen
+- Dorina bleibt nicht in ihrem Baum, nachdem man mit ihr nach Dor Kiredon ging
+- Die Interaktionen mit Luminor wurden verbessert:
+  - Man kann nicht l�nger den Raum verlassen oder die Flamme l�schen, solange Luminor lebt
+  - Man kann nach Luminors Tod kein weiteres Eiswasser mehr einf�llen (die Flamme ist ja weg)
+  - Man kann die Flamme nach Luminors Tod nicht irgendwie wieder erschaffen oder unsichtbare Schadenevents erzeugen
+  - Wenn man den Raum im unteren Teil des Turmes nicht betritt und Luminor gleich t�tet, kommt danach unten nicht l�nger eine Nachricht �ber die Flamme (da sie nicht mehr da ist).
+- In der Antiken Anlage 2 wurde ein elektrischer Blitz behoben, der sich nicht bewegte
+- In der Antiken Anlage 2 kann man die Nummer-T�r nicht nochmals anklicken, nachdem sie bereits offen ist
+- Die T�r zu Kires Schatzkammer ist nicht l�nger initial offen
+- Die T�r zu Kires Schatzkammer bleibt nun nach dem Aufschlie�en offen und der Schl�ssel wird zerst�rt
+- Der Installer wurde gefixt
+
+�nderungen in 1.16
+==================
+
+- Der Crash beim Beenden des Spiels, der ab 1.13 auftrat, ist nun behoben.
+- Ein weiterer Crash wenn man den Adler zu oft wieder freil�sst wurde behoben.
+- Einige Map-Tiles wurden gefixt, die es erlaubten in W�nde zu laufen.
+  - Banditenversteck
+  - Spannenberg Taverne
+  - Illien Taverne
+- Ein Typo (falscher Fall) beim Text-Popup beim Betreten des Hangars wurde behoben.
+- Sansris Tempel wurde verbessert:
+  - Nicht gezogene Hebel werden auf der Karte als "Spezial" markiert
+  - Nicht zerst�rte Sanduhren ebenfalls
+  - Fehlende Texte beim Zerst�ren der Sanduhren wurden hinzugef�gt
+  - Die Events f�r die herabfallenden W�nde wurden verbessert
+  - Es wurde angepasst welcher Hebel welche Wand �ffnet (nun viel besser)
+  - Eine der Sanduhren wurde ans Ende des Levels verschoben (nun viel logischer und besser)
+  - Weitere kleinere Verbesserungen, damit sich der Tempel sch�ner spielt
+- Einige fehlende NPC-Interaktionen wurden hinzugef�gt:
+  - Sandra
+  - Ketnar
+  - Drongeb
+- Man kann nun die beiden Patienten im Haus der Heiler von Burnville ansprechen
+- Der Rassenname von Tieren wird nun in Gespr�chen angezeigt
+- Im Testament steht nun immer der Name des Helden und nicht des aktiven Spielers
+
+
+�nderungen in 1.15
+==================
+
+- Der Crash wenn man den Adler zu oft ruft wurde nochmals behoben.
+  Der Fix ging wohl in 1.13 verloren.
+- Der Status "Veralterung" hei�t nun "Alterung"
+- Typo im Optionsnamen f�r Musik behoben ("MMusik")
+- Im Text nach dem Endbosskampf wurde "BEGABEN" durch "BEGRABEN" ersetzt
+- Der NPC "Pelani" hei�t nun "Pelanis" wie in Amberstar und der englischen Version
+- Der NPC "Brog" wurde gefixt. Einige Texte konnten nie getriggert werden au�erdem gab es Textfehler bei denen Dor Kiredon statt Dor Grestin verwendet wurde.
+- Nera's Ring ist nun ein wichtiger Gegenstand
+
+
+�nderungen in 1.14
+==================
+
+- Es fehlten die Texte f�r die F�higkeiten "Spruchrollen lesen" und
+  "Magie benutzen", daher wurde das bei Items nicht angezeigt. Nun behoben.
+- Die Datei Fantasy_intro wurde damals gepatch, damit sie auch auf
+  060 CPUs l�uft, allerdings ging der Patch in den neuen Versionen
+  verloren. Ist nun wieder eingespielt.
+
+
+�nderungen in 1.13
+==================
+
+- Die Hauptanwendungen von Ambermoon (AM2_CPU und AM2_BLIT)
+  wurden zusammengelegt. Dadurch reduziert sich der n�tige
+  Speicherplatz betr�chtlich (in Amiga-Speicher :) ).
+  Au�erdem sind so Fixes und Updates einfacher zu realisieren.
+- Alle In-Game Texte wurden aus der Exe in die externe Datei Text.amb ausgelagert
+- Die Daten aller Items wurden aus der Exe in die externe Datei Objects.amb ausgelagert
+- Die Grafiken aller Schaltfl�chen wurden aus der Exe in die externe Datei Button_graphics ausgelagert
+- F�r oben genannte Dateien wurden Loader in die Exe integriert. Man kann nun die gleiche Exe (AM2_CPU) f�r alle Sprachen nutzen.
+- Die Datei Monster_char_data.amb hei�t nun Monster_char.amb
+- Die Datei Dictionary.german hei�t nun Dict.amb
+- Ein Schreibfehler in den Texten von Kire wurde behoben "KONTAKE" statt "KONTAKTE"
+- In der Werft in Spannenberg kann man nicht l�nger in die obere Etage gelangen und die Tiles dort wurden aufgeh�bscht
+
+
+�nderungen in 1.12
+==================
+
+- Ein Absturz "Nicht gen�gend freie Memory Handles" wurde behoben, der oft in
+  Zusammenhang mit dem Adler auftrat.
+- Textkorrektur f�r NPC Theresa: "NEHMMT" zu "NEHMT"
+- Textkorrektur in Nalven's Magieschule: "IN IN" zu "IN"
+- Im Gespr�ch mit Theresa erh�lt man nun das Wort "REPARATUR" statt "REPERATUR"
+  und sie wird auch auf das korrigierte Wort reagieren.
+- Kleine Bereinigung des NPCs Vater Antonius, der noch ein Event enthielt, welches
+  einem den Schl�ssel zur Komode gibt. Dies ist allerdings ein Relikt, da man den
+  Schl�ssel nun woanders findet und durch einen Bug sieht man im Spiel auch nicht,
+  dass der Vater einem den Schl�ssel gibt.
+
+
+�nderungen in 1.11
+==================
+
+- Wenn man "Tochter" zu Sandra sagt, erh�lt man nun auch den Truhenschl�ssel und nicht nur
+  den Burnville Tunnel Schl�ssel.
+- Im Testament wurde "Enkel" zu "Enkelkind" ge�ndert um auch f�r weibliche Hauptcharaktere
+  zu passen.
+- Eine Spinne im Keller der Banditen konnte sich nicht bewegen. Das wurde gefixt.
+- In den H�gelh�hlen und der Biesth�hle wurde ein visueller Fehler auf der Dungeon-Karte behoben.
+- Gadlons Keller 1 hat nun korrekterweise Monster. Vorher waren diese durch einen Bug hinter
+  den Au�enw�nden gefangen.
+- Chris hat zu Anfang nicht l�nger zerst�rte Stiefel.
+- Die magische Flugscheibe ist nicht l�nger zerbrochen in der Kiste im Thalion B�ro.
+- In der N�he von Koordinate 0,0 auf Morag wurden visuelle Map-Fehler behoben.
+- Das Tornakweibchen gibt nun 650 statt 0 EP.
+- Tippfehler bei einem Text von Baron Karsten wurde behoben ("ist sind" -> "sind").
+- Das Item Topaz hei�t nun Topas, da es der korrekte deutsche Name ist und in Texten auch
+  dieser Name benutzt wird. Topaz ist hingegen der englische Name.
+
+
+�nderungen in 1.10
+==================
+
+- Der Zauber "Fluch beseitigen" wurde gefixt
+- Die T�r zum Windschrein kann nicht l�nger mit Hexenbesen oder Adler �bersprungen werden.
+- Beim Verlassen des Windschreins kommt man nun an der richtigen Position raus.
+- Der Maximalwert f�r die Schwimm-F�higkeit wurde von 99 auf 95 zur�ckge�ndert.
+- Der aktuelle Schwimm-Wert f�r Tar wurde von 99 auf 90 zur�ckge�ndert.
+- Die Maximalwerte f�r Magie benutzen und Spruchrollen lesen wurden f�r Tar und Nelvin
+  von 99 auf 95 zur�ckge�ndert.
+- Das Item "Krumms�bel" wurde wieder in "Scimitar" umbenannt.
+- Die letzten 4 Punkte waren alles �nderungen von Daniel Schulz in 1.06, die nicht als
+  korrekt eingestuft wurden.
+- Die F�higkeitsreduktionen f�r die Items Peitsche (-10 Parade), B�nderpanzer (-4 Attacke),
+  Plattenpanzer (-6 Attacke) und Ritterr�stung (-8 Attacke) wurden korrigiert.
+- Der Code f�r die F�higkeitsreduktion von Items wurde gefixt.
+- Eriks initialer Attacke-Bonuswert wurde zur�ck von 0 auf -6 gesetzt. Da die F�higkeits-
+  reduktion nun funktioniert, ist dies korrekt. Er tr�gt einen Plattenpanzer.
+- Ein Anzeigefehler auf der Karte im Palast des Barons in Newlake wurde behoben.
+- Fehler beim Gespr�ch mit dem NPC Matthias wurden behoben, wenn man die Elfenharfe kauft.
+- Die vorhandene Anti-Schmuggler-Bestrafung auf Morag wurde verbessert (Text-Farbe und
+  Entfernen der Gegenst�nde).
+- Eine weitere Anti-Schmuggler-Bestrafung wurde hinzugef�gt, sodass es nun wirklich unm�glich
+  ist, den Hexenbesen oder die magische Flugscheibe auf Morag zu verwenden.
+
+
+�nderungen in 1.09
+==================
+
+- Viele Texte wurden korrigiert.
+- Die T�r zum Temple der Gala kann nicht l�nger mit Hexenbesen oder Adler �bersprungen werden.
+- Die T�r zur Krypta kann nicht l�nger mit Hexenbesen oder Adler �bersprungen werden.
+- Die T�r zu Lebab's Turm kann nicht l�nger mit Hexenbesen oder Adler �bersprungen werden.
+  Au�erdem kann man den Kampf gegen die Gargylen nicht durch Flucht �berspringen.
+- Ein doppeltes Text-Popup in Burnville wurde behoben.
+- Ein f�lschlicherweise angezeigte Kiste im Palast des S'Endar wurde korrigiert.
+- Der Schmied in Newlake hat nun den richtigen Namen und Preis.
+- Der Schiffsh�ndler in Spannenberg platziert nun korrekt gekaufte Schiffe.
+- Gryban erscheint nun wieder in der Feste Godsbane, nachdem er die Gruppe verl�sst.
+- Der Hexenbesen und die Flugscheibe werden nun auch beim zweiten Besuch von Morag zerst�rt.
+- Nachdem S'Riel gestorben ist und man erneut in seine Zelle geht, findet man nun seine
+  �berreste und nicht nur ein Text-Popup dar�ber mit einem leeren Fu�boden.
+- Wenn man wirklich stark versucht den Hexenbesen oder die Flugscheibe auf Morag zu schmuggeln
+  (denn einen Weg gibt es noch), dann wird man sein blaues Wunder erleben! Vorher speichern!
+- Man kann nicht l�nger Lebab's Turm mit dem Hexenbesen durchqueren.
+- Anzeigefehler im Gef�ngnis von S'Angrila behoben.
+- Man wird nicht l�nger im Keller des Hexenhauses in der Wand steckenbleiben.
+- Man wird nicht l�nger in der Mine in Dor Kiredon in der T�r steckenbleiben.
+- Der Status "Krankheit" reduziert nun korrekt ein Zufallsattribut von Zeit zu Zeit.
+- Der Zauber "SP-Stehler" entziehnt nun den korrekten SP-Wert.
+- Wenn man durch den Verkauf von Waren beim H�ndler mehr als 32767 Gold hat, kann man
+  nun dennoch weiter Waren kaufen.
+
+
+�nderungen in 1.08
+==================
+
+- Sansrie wurde in Sansri umbenannt (Items, Monster, Texte)
+- Eine Treppe in Sansri's Tempel wurde optisch korrigiert.
+- Wenn man mit Dorina nach Dor Kiredon zur�ckkehrt besagte der Text, dass man
+  nach Dor Grestin gereist ist. Das wurde behoben.
+- Alle Waldmond-Pflanzen haben nun korrekterweise 1 Aufladung, sodass sie
+  benutzt werden k�nnen.
+- Die Spruchrolle "Anti-Magie Sph�re" hat nun das korrekte Gewicht.
+- Die Items "M�rderklinge" und "Dolchschleuder" zeigen nun die korrekt Anzahl
+  an n�tigen H�nden.
+- Sehr viele geschlechterspezifische Texte, die sich auf einen m�nnlichen Helden
+  bezogen wurden korrigiert, sodass auch f�r weibliche Helden die Texte passen.
+- Einige Itemnamen wurden korrigiert:
+  - Mystischer Globe -> Mystischer Globus
+  - Alchemist. Globe -> Alchemist. Globus
+  - Magische Flugscheib -> Mag. Flugscheibe (l�nger ging leider nicht)
+  - Sansries Halsband -> Sansrie's Halsband (konform zu �hnlichen Items)
+  - Valdyns Lederschuhe -> Valdyn's Schuhe (konform zu �hnlichen Items und der englischen Version).
+- Die Quest f�r die Kristallharfe wurde korrigiert/verbessert:
+  - Man kann nicht l�nger die Kristallharfe bekommen, ohne die Elfenharfe zu besitzen.
+  - Man kann nun auch die Elfenharfe zeigen/geben um eine Reaktion zu erhalten.
+- Wenn man Dor Kiredon erstmalig betritt, lernen alle Partymitglieder die zwergische
+  Sprache. Es verhindert, dass man ohne zwergisch sprechende Charaktere auf dem
+  Waldmond festh�ngt. Au�erdem ist es storym��ig nicht unwahrscheinlich, dass einem
+  die Zwerge ihre Sprache beibringen.
+- Das Lava-Becken in Luminor's Folterkammer blockt nun die Spielerbewegung. Man
+  konnte vorher munter in der Lava spazieren und es gab einige visuelle Bugs.
+- Wenn man Tornaks t�tet und dann mit einem Tornak-Ei die gleiche Map wieder
+  betritt, sind die Tornaks nun auch verschwunden und nicht pl�tzlich wieder da.
+  Das betrifft die Mine - 2. Level und die Tornakh�hle unter Ferrin's Schmiede.
+- Au�erdem bleiben auch beseitigte W�nde (Spitzhacke) in der Tornakh�hle beseitigt,
+  egal ob man mit oder ohne Ei weiderkommt bzw. die W�nde entfernt hat.
+- Und wenn man ein Ei dabei hatte konnte man die Spitzhacke in der Tornakh�hle
+  mehrfach an der selben Stelle verwenden. Die Wand war dann zwar weg, aber der
+  Text wurde immer wieder angezeigt. Das ist nun auch behoben.
+
+
+
+�nderungen in 1.07
+==================
+
+- Sansri's Schl�ssel funktioniert nun in Sansri's Tunnel.
+- Der mysteri�se Golem im Tempel der Gala, der um 0 Uhr als Partymitglied
+  erscheint ist nun gefixt und erscheint nun als regul�res Monster (4 Golems)
+  auf der Karte.
+- Reg der H�gelriese ist nun korrekt als Boss gekennzeichnet, so dass er immun
+  f�r Zauber wie Furcht oder Versteinern ist.
+- Zwei Teile der Lyramion Weltkarte wurden gefixt, sodass dort nicht l�nger
+  merkw�rdige Effekte mit dem Nebel des Krieges (fog of war) auftreten.
+- Gryban kehrt nun in die Feste Godsbane zur�ck, wenn ihr ihn aus der Party
+  entlasst.
+- Zwei verbuggte Windtore wurden korrigiert, deren Grafiken nach dem Reparieren
+  fehlerhaft waren.
+- In Gadlon ist es nun m�glich zur�ck zur ersten Etage zu gelangen.
+- Im Keller des Hauses der Banditen wurde ein falscher Schalten behoben.
+- Alle Pflanzen auf Kire's Mond wurden behoben, sodass man sie nun alle
+  einsammeln kann, wenn man mit Asrub dar�ber gesprochen hat.
+- Ein Text-Popup in Nalven's Magieschule wurde behoben, sodass es nun
+  erscheint wenn man sich erstmals der rechten T�r n�hert.
+- Im geheimen Thalion B�ro wurden zwei fehlende Text-Popups hinzugef�gt.
+- Das Windtor an Position 271, 564 kann nicht l�nger benutzt werden, wenn es
+  noch zerst�rt ist.
+- Der Stadt S'Angrila wurde eine Bodentextur hinzugef�gt.
+- Die Blickrichtung wurde korrigiert, wenn man in Luminor's Turm von
+  Ebene 4 auf 3 wechselt.
+- Desweiteren beinhaltet 1.07 alle bis dahin verf�gbaren deutschen Patches.
+
+
+�ber den Autor
+==============
+
+Fast alle �nderungen wurden von Pyrdacor (trobt@web.de) durchgef�hrt.
+Du kannst mich auch auf meiner github Seite auf https://github.com/Pyrdacor besuchen.
+
+Einige Verbesserungen der deutschen Texte hat skdubg beigesteuert.

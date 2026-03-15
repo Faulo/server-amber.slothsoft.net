@@ -16,7 +16,8 @@
 
     <resource-directory name="release" type="*/*" />
 
-    <resource-directory name="source" type="*/*" />
+    <resource-directory name="pyrdacor" type="*/*" />
+    <resource-directory name="slothsoft" type="*/*" />
 
     <directory name="static">
         <resource-directory type="image/x-icon" name="icons"></resource-directory>
