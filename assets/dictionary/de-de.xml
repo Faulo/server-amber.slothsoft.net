@@ -1112,16 +1112,13 @@
     </sfd:fragment>
 
     <sfd:fragment xml:id="page-body.PCList">
-        <article class="post">
+        <article class="post" xml:space="preserve">
             <p>Dies ist eine Liste aller Charaktere, die im Verlauf des Spiels in die Gruppe aufgenommen werden können, mit allen ihren spielrelevanten Informationen.</p>
             <p>
-                Die Charektere
-                <span class="amber-text amber-text--yellow">Erik</span>
-                ,
-                <span class="amber-text amber-text--yellow">Mando</span>
-                ,
-                <span class="amber-text amber-text--yellow">Monika</span>
-                ,
+                Die Charaktere
+                <span class="amber-text amber-text--yellow">Erik</span>,
+                <span class="amber-text amber-text--yellow">Mando</span>,
+                <span class="amber-text amber-text--yellow">Monika</span>,
                 <span class="amber-text amber-text--yellow">Chris</span>
                 und
                 <span class="amber-text amber-text--yellow">Netsrak</span>
