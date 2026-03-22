@@ -472,3 +472,24 @@ code {
 .Character .character-sheet td {
 	padding: 0 1ch 0 0;
 }
+
+.faq>dd+dt {
+	margin-top: 1em;
+}
+
+.faq p {
+	margin: 0;
+}
+
+.faq p+p {
+	margin-top: 0.5em;
+}
+
+.faq p+ul {
+	margin-top: 0.5em;
+}
+
+.faq ul {
+	padding-left: 2em;
+	list-style: square;
+}

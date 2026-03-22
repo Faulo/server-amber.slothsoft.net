@@ -140,7 +140,7 @@
                     <h2>FAQs</h2>
                 </summary>
                 <div>
-                    <dl>
+                    <dl class="faq">
                         <dt>
                             Was bedeutet
                             <code>apr-per-level</code>
@@ -153,18 +153,14 @@
                                 <span>APRproLvl</span>
                                 Wert". Abenteurer beispielsweise erhalten, beginnend mit Lvl 24,
                                 alle 12 Level eine zusätzliche Attacke pro
-                                Runde. Also Lvl
+                                Runde. Also:
                             </p>
-                            <code>
-                                1-23: 1 APR
-                                <br />
-                                24-35: 2 APR
-                                <br />
-                                36-47: 3 APR
-                                <br />
-                                48-50: 4 APR
-                                <br />
-                            </code>
+                            <ul>
+                                <li>Level 1-23: 1 APR</li>
+                                <li>Level 24-35: 2 APR</li>
+                                <li>Level 36-47: 3 APR</li>
+                                <li>Level 48-50: 4 APR</li>
+                            </ul>
                             <p>
                                 (Anders ausgedrückt:
                                 <code>APR = Level / apr-per-level</code>
@@ -409,15 +405,15 @@
                             </p>
                             <dl>
                                 <dt>STA - Stärke</dt>
-                                <dd>Das maximale Tragegewicht, in Kilogramm.</dd>
+                                <dd>Das maximale Tragegewicht, in Kilogramm. Außerdem 1 zusätzlicher Schadenspunkt pro vollen 25 Punkten.</dd>
                                 <dt>INT - Intelligenz</dt>
-                                <dd>Keine.</dd>
+                                <dd>Bei Stufenaufstieg 1 zusätzlicher Punkt zu je SP und SLP pro vollen 25 Punkten.</dd>
                                 <dt>GES - Geschicklichkeit</dt>
                                 <dd>Keine.</dd>
                                 <dt>SCH - Schnelligkeit</dt>
                                 <dd>Bestimmt die Reihenfolge im Kampf.</dd>
                                 <dt>KON - Konstitution</dt>
-                                <dd>Keine.</dd>
+                                <dd>1 zusätzlicher Rüstungspunkt pro vollen 25 Punkten.</dd>
                                 <dt>KAR - Karisma</dt>
                                 <dd>Beeinflusst den Verkaufspreis von Gegenständen.</dd>
                                 <dt>GLÜ - Glück</dt>
@@ -519,7 +515,7 @@
                             <h3>Allgemeine Sonderbarkeiten</h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="orange">Fernkampfwaffen im Nahkampf einsetzen</dt>
                             <dd>Wird im Kampf ein Gegner zum angreifen selektiert
                                 (Schwert-Symbol erscheint) und dann im Inventar die
@@ -533,18 +529,21 @@
 
                             <dt class="orange">Events in 3D-Dungeons per "Sprung" umgehen</dt>
                             <dd>
-                                Vielen Events ist eine bestimmte X/Y Koordinate zugeordnet,
-                                und sie triggern, sobald diese betreten wird. Der
-                                Zauber
-                                "Sprung" teleportiert die Gruppe 2 Koordinateneinheiten
-                                vorwärts, und so lassen sich diverse unangenehme
-                                Events
-                                buchstäblich überspringen. So lassen sich
-                                viele Boss-Räume
-                                plündern, bevor man dem Boss gegenübertritt (wenn
-                                überhaupt).
-                                <br />
-                                Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                <p>
+                                    Vielen Events ist eine bestimmte X/Y Koordinate zugeordnet,
+                                    und sie triggern, sobald diese betreten wird. Der
+                                    Zauber
+                                    "Sprung" teleportiert die Gruppe 2 Koordinateneinheiten
+                                    vorwärts, und so lassen sich diverse unangenehme
+                                    Events
+                                    buchstäblich überspringen. So lassen sich
+                                    viele Boss-Räume
+                                    plündern, bevor man dem Boss gegenübertritt (wenn
+                                    überhaupt).
+                                </p>
+                                <p>
+                                    Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                </p>
                                 <ul>
                                     <li>Die Hinterhalte der Banditen beim Test der Diebe im Weinkeller</li>
                                     <li>Der Feuerriese im Burnville Tunnel</li>
@@ -556,11 +555,9 @@
 
                             <dt class="orange">Events via Dunkelheit umgehen</dt>
                             <dd>
-                                Die meisten Events im Spiel prüfen vor ihrem Aufruf, ob die Gruppe gerade sehen kann. Falls nicht, wird das Event nicht abgespielt.
-                                <br />
-                                Daraus folgt, dass man sich gewissermaßen an diesen Events vorbeischleichen kann, indem man sein Fackellicht löscht, bevor man die entsprechenden Koordinaten betritt.
-                                <br />
-                                Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                <p>Die meisten Events im Spiel prüfen vor ihrem Aufruf, ob die Gruppe gerade sehen kann. Falls nicht, wird das Event nicht abgespielt.</p>
+                                <p>Daraus folgt, dass man sich gewissermaßen an diesen Events vorbeischleichen kann, indem man sein Fackellicht löscht, bevor man die entsprechenden Koordinaten betritt.</p>
+                                <p>Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:</p>
                                 <ul>
                                     <li>Die Hinterhalte der Banditen beim Test der Diebe im Weinkeller</li>
                                     <li>Der Feuerriese im Burnville Tunnel</li>
@@ -570,9 +567,8 @@
 
                             <dt class="orange">Events via Blindheit umgehen</dt>
                             <dd>
-                                Die Zustandsveränderung "Blindheit" hat für die Gruppenführer*in den gleichen Effekt wie Dunkelheit, und so lassen sich ebenso alle Events umgehen, die eine sehende Gruppe vorraussetzen.
-                                <br />
-                                Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                <p>Die Zustandsveränderung "Blindheit" hat für die Gruppenführer*in den gleichen Effekt wie Dunkelheit, und so lassen sich ebenso alle Events umgehen, die eine sehende Gruppe vorraussetzen.</p>
+                                <p>Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:</p>
                                 <ul>
                                     <li>Alle Events, die auch via Dunkelheit umgangen werden können</li>
                                     <li>Die Hinterhalte im Banditenhaus</li>
@@ -615,17 +611,6 @@
                                 umgehen, und damit der Besen als
                                 Transportmittel auf dem Mond
                                 benutzen. Ebenso kann eine
-                                blinde Gruppenführer*in direkt aus dem Luftschiff in die Stadt S'Angrila laufen, ohne von
-                            </dd>
-
-                            <dt class="yellow">Hexenbesen nach Morag schmuggeln</dt>
-                            <dd>Auf dem Wüstenmond wird ein eventuell mitgeführter Hexenbesen
-                                per Event zerstört. Über die Zauber "Wort des
-                                Markierens" und
-                                "Wort der Rückkehr" lässt sich das Triggern dieses Events
-                                umgehen, und damit der Besen als
-                                Transportmittel auf dem Mond
-                                benutzen. Ebenso kann eine
                                 blinde Gruppenführer*in direkt aus dem Luftschiff in die Stadt S'Angrila laufen, ohne von S'Riel teleportiert zu werden.
                             </dd>
                         </dl>
@@ -641,7 +626,7 @@
                             </h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="gray">Magische Bolzen benötigen 0 Hände</dt>
                             <dd>Das Item "Magische Bolzen" benötigt keine Hände, kann also
                                 problemlos mit einer Zweihandwaffe kombiniert
@@ -724,7 +709,7 @@
                             </h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="gray">Valdyn kann Schwimmen nicht maximieren</dt>
                             <dd>Valdyn trägt Valdyn's Ledercape (Schwimmen+15). Dieser Bonus
                                 ist aber nicht in seinen Fähigkeiten vermerkt, so
@@ -810,7 +795,7 @@
                             </h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="yellow">Sandra rückt den Schlüssel ihrer Truhe nicht raus</dt>
                             <dd>
                                 Sandra, die Oberheilerin von Spannenberg, erzählt auf Nachfrage von ihrer Tochter Sabine. Dann gibt sie der
@@ -837,7 +822,7 @@
                             </h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="yellow">Reg Hügelriese ist kein Boss</dt>
                             <dd>
                                 Reg, der Anführer der Orks in Spannenberg, ist nicht als Boss
@@ -869,7 +854,7 @@
                             </h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="yellow">Lyramion 150|450 ist keine Weltkarte</dt>
                             <dd>Der Kartenausschnitt, der die Korrdinaten 150|450 - 199|499
                                 abdeckt ist nicht als Weltkarte gekennzeichnet.
@@ -899,7 +884,7 @@
                             </h3>
                         </summary>
 
-                        <dl>
+                        <dl class="faq">
                             <dt class="yellow">HANGAR AUF MORAG und GEFÄNGNIS - S'ANGRILA sind
                                 nicht auf dem Wüstenmond
                             </dt>
@@ -1069,7 +1054,7 @@
                     <summary>
                         <h2>Ambermoon v1.07 14-3-2026 / Deutsch</h2>
                     </summary>
-                    <dl>
+                    <dl class="faq">
                         <dt>Download:</dt>
                         <dd>
                             <ul>
@@ -1108,7 +1093,7 @@
                     <summary>
                         <h2>Ambermoon v1.06 8-08-2017 / Deutsch</h2>
                     </summary>
-                    <dl>
+                    <dl class="faq">
                         <dt>Download:</dt>
                         <dd>
                             <ul>
