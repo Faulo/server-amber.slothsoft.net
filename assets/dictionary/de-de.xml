@@ -653,12 +653,12 @@
                                 Es verhält sich aber wie ein Schlüssel.
                             </dd>
 
-                            <dt class="yellow">Gala's Stab ist ein magischer Gegenstand</dt>
+                            <dt class="gray">Gala's Stab ist ein magischer Gegenstand</dt>
                             <dd>Das Item "Gala's Stab" ist in der Kategorie "Mag. Gegenstand".
                                 Es verhält sich aber wie eine Nahkampfwaffe (fast genau so wie die Nahkampfwaffe "Keule der Gala", um genau zu sein).
                             </dd>
 
-                            <dt class="yellow">Die Mörderklinge benötigt 0 Hände</dt>
+                            <dt class="gray">Die Mörderklinge benötigt 0 Hände</dt>
                             <dd>
                                 Das Item "Mörderklinge" benötigt keine Hände.
                                 Das erlaubt keine nennenswerten Bugs, ist aber trotzdem falsch.
