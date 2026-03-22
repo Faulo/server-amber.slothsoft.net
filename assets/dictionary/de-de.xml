@@ -532,7 +532,8 @@
                             </dd>
 
                             <dt class="orange">Events in 3D-Dungeons per "Sprung" umgehen</dt>
-                            <dd>Vielen Events ist eine bestimmte X/Y Koordinate zugeordnet,
+                            <dd>
+                                Vielen Events ist eine bestimmte X/Y Koordinate zugeordnet,
                                 und sie triggern, sobald diese betreten wird. Der
                                 Zauber
                                 "Sprung" teleportiert die Gruppe 2 Koordinateneinheiten
@@ -540,9 +541,49 @@
                                 Events
                                 buchstäblich überspringen. So lassen sich
                                 viele Boss-Räume
-                                plündern bevor man dem Boss gegenübertritt (wenn
-                                überhaupt). Das
-                                geht z.B. bei manchen Hügelriesen, Nagier, und Luminor.
+                                plündern, bevor man dem Boss gegenübertritt (wenn
+                                überhaupt).
+                                <br />
+                                Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                <ul>
+                                    <li>Die Hinterhalte der Banditen beim Test der Diebe im Weinkeller</li>
+                                    <li>Der Feuerriese im Burnville Tunnel</li>
+                                    <li>Die Büchertür in der Bibliothek von Newlake</li>
+                                    <li>Die marodierenden Krieger in der Waffenkammer von Gemstone</li>
+                                    <li>Die herunterfahrenden Wände im Tempel der Sansri</li>
+                                </ul>
+                            </dd>
+
+                            <dt class="orange">Events via Dunkelheit umgehen</dt>
+                            <dd>
+                                Die meisten Events im Spiel prüfen vor ihrem Aufruf, ob die Gruppe gerade sehen kann. Falls nicht, wird das Event nicht abgespielt.
+                                <br />
+                                Daraus folgt, dass man sich gewissermaßen an diesen Events vorbeischleichen kann, indem man sein Fackellicht löscht, bevor man die entsprechenden Koordinaten betritt.
+                                <br />
+                                Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                <ul>
+                                    <li>Die Hinterhalte der Banditen beim Test der Diebe im Weinkeller</li>
+                                    <li>Der Feuerriese im Burnville Tunnel</li>
+                                    <li>Die marodierenden Krieger in Gemstone</li>
+                                </ul>
+                            </dd>
+
+                            <dt class="orange">Events via Blindheit umgehen</dt>
+                            <dd>
+                                Die Zustandsveränderung "Blindheit" hat für die Gruppenführer*in den gleichen Effekt wie Dunkelheit, und so lassen sich ebenso alle Events umgehen, die eine sehende Gruppe vorraussetzen.
+                                <br />
+                                Events, deren Umgehen damit möglich ist und wo es sinnvoll sein könnte, sind z.B.:
+                                <ul>
+                                    <li>Alle Events, die auch via Dunkelheit umgangen werden können</li>
+                                    <li>Die Hinterhalte im Banditenhaus</li>
+                                    <li>Reg's Erscheinen in der Orkhöhle</li>
+                                    <li>Das erste Paar Wachgolems im Tempel der Gala</li>
+                                    <li>Alle Fallen in Luminor's Turm (vor allem der Raum mit wandernden Flammen und Geysiren)</li>
+                                    <li>Die Hinterhalte in Kire's Palast in Gemstone</li>
+                                    <li>Das Zerstören des Hexenbesens auf Kire's Mond</li>
+                                    <li>Das Zerstören des Hexenbesens und der Luftscheibe auf Morag</li>
+                                    <li>Das Teleportieren der Gruppe aus dem Hangar zu S'Riel</li>
+                                </ul>
                             </dd>
 
                             <dt class="orange">Gegner per Speichern/Laden umgehen</dt>
@@ -559,6 +600,13 @@
                                 ausräumen ohne 1 mal kämpfen zu müssen.
                             </dd>
 
+                            <dt class="yellow">Hexenbesen zum Waldmond schmuggeln</dt>
+                            <dd>Auf dem Waldmond wird ein eventuell mitgeführter Hexenbesen
+                                per Event zerstört. Ist die Gruppenführer*in beim Verlassen des Luftschiffes blind, tritt das Event nicht auf, womit sich der Besen als
+                                Transportmittel auf dem Mond
+                                benutzen lässt.
+                            </dd>
+
                             <dt class="yellow">Hexenbesen nach Morag schmuggeln</dt>
                             <dd>Auf dem Wüstenmond wird ein eventuell mitgeführter Hexenbesen
                                 per Event zerstört. Über die Zauber "Wort des
@@ -566,7 +614,19 @@
                                 "Wort der Rückkehr" lässt sich das Triggern dieses Events
                                 umgehen, und damit der Besen als
                                 Transportmittel auf dem Mond
-                                benutzen.
+                                benutzen. Ebenso kann eine
+                                blinde Gruppenführer*in direkt aus dem Luftschiff in die Stadt S'Angrila laufen, ohne von
+                            </dd>
+
+                            <dt class="yellow">Hexenbesen nach Morag schmuggeln</dt>
+                            <dd>Auf dem Wüstenmond wird ein eventuell mitgeführter Hexenbesen
+                                per Event zerstört. Über die Zauber "Wort des
+                                Markierens" und
+                                "Wort der Rückkehr" lässt sich das Triggern dieses Events
+                                umgehen, und damit der Besen als
+                                Transportmittel auf dem Mond
+                                benutzen. Ebenso kann eine
+                                blinde Gruppenführer*in direkt aus dem Luftschiff in die Stadt S'Angrila laufen, ohne von S'Riel teleportiert zu werden.
                             </dd>
                         </dl>
                     </details>
