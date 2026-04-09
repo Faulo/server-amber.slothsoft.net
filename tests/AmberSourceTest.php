@@ -12,7 +12,7 @@ final class AmberSourceTest extends TestCase {
     
     private const AMBERDATA = 'farah://slothsoft@amber/api/editor-data';
     
-    private const REPOSITORY = 'farah://slothsoft@amber.slothsoft.net/source';
+    private const REPOSITORY = 'farah://slothsoft@amber.slothsoft.net/slothsoft';
     
     private const GAME = 'ambermoon';
     
@@ -56,7 +56,6 @@ final class AmberSourceTest extends TestCase {
         ];
         
         $versions = [
-            '1.05' => 'Thalion-v1.05-DE',
             '1.06' => 'Slothsoft-v1.06-DE',
             '1.07' => 'Slothsoft-v1.07-DE'
         ];
