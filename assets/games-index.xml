@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index>
     <game name="ambermoon" title="Ambermoon">
-        <mod name="Pyrdacor-v1.20-DE" hidden="" repository="farah://slothsoft@amber.slothsoft.net/pyrdacor" />
+        <mod-disabled name="Pyrdacor-v1.20-DE" hidden="" repository="farah://slothsoft@amber.slothsoft.net/pyrdacor" />
         <mod name="Pyrdacor-v1.12-DE" hidden="" repository="farah://slothsoft@amber.slothsoft.net/pyrdacor" />
         <mod name="Slothsoft-v1.07-DE" repository="farah://slothsoft@amber.slothsoft.net/slothsoft" />
         <mod name="Slothsoft-v1.06-DE" repository="farah://slothsoft@amber.slothsoft.net/slothsoft" />
