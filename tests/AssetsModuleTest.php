@@ -1,13 +1,14 @@
 <?php
 declare(strict_types = 1);
+
 namespace Slothsoft\Server\Amber;
 
 use Slothsoft\Farah\FarahUrl\FarahUrlAuthority;
 use Slothsoft\FarahTesting\Module\AbstractModuleTest;
 
 final class AssetsModuleTest extends AbstractModuleTest {
-
+    
     protected static function getManifestAuthority(): FarahUrlAuthority {
-        return FarahUrlAuthority::createFromVendorAndModule('slothsoft', 'amber.slothsoft.net');
+        return FarahUrlAuthority::createFromVendorAndModule('slothsoft', 'archive.slothsoft.net');
     }
 }
