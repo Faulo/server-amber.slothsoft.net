@@ -935,16 +935,8 @@
                         benutzt.
                     </p>
                     <p>
-                        Der Rest ist Eigenentwicklung, und verfügbar in meinem
-                        <a href="https://github.com/Faulo/slothsoft.net/tree/master/mod/savegame" rel="external" target="_blank">Repository auf
-                            GitHub
-                        </a>
-                        .
-                    </p>
-                    <p>
-                        Außerdem gibt es noch meine Analysen der
-                        <a href="/slothsoft@amber/api/savegame">Spielstanddateien</a>
-                        .
+                        Der Rest ist Eigenentwicklung, und verfügbar in 2 Composer Packages: <a href="https://packagist.org/packages/slothsoft/savegame" rel="external" target="_blank">slothsoft/savegame</a> für das Datei-Bearbeitungs-Framework und <a href="https://packagist.org/packages/slothsoft/amber" rel="external" target="_blank">slothsoft/amber</a> für die konkrete Ambermoon-Implementierung.
+                        Der <a href="https://github.com/Faulo/server-amber.slothsoft.net" rel="external" target="_blank">Quellcode dieser Website</a> ist ebenfalls öffentlich auf GitHub verfügbar.
                     </p>
                 </div>
             </details>
